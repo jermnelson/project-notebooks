@@ -12,6 +12,16 @@ with open(ENV_PATH) as fo:
     token = fo.read()[:-1]
     GITHUB_HEADERS = {'Authorization': f"token {token}"}
 
+def all_issues(**kwargs):
+    """Queries Github and retrieves all state issues in a Github repository
+
+
+    Keyword arguments:
+    repo -- The name of the LD4P repository (defaults sinopia_editor)
+    state -- The state of the issues, (defaults OPEN)
+    """
+
+
 def issues_query(**kwargs):
     """Queries with graph QL for issues and returns json
 

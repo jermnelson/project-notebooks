@@ -1,0 +1,3897 @@
+[
+  {
+    "node": {
+      "closedAt": "2019-05-29T15:35:30Z",
+      "createdAt": "2019-02-07T00:10:10Z",
+      "number": 338,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Finalize Help & Resources links on Sinopia home page",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/338"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-02-19T14:57:33Z",
+      "createdAt": "2019-02-07T17:44:29Z",
+      "number": 341,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "Default for InputLiteral being duplicated",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/341"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-02-13T21:20:25Z",
+      "createdAt": "2019-02-08T00:23:33Z",
+      "number": 345,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "For a form that's a modal, display the value entered or selected on the main ResourceTemplateForm",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/345"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-28T23:36:25Z",
+      "createdAt": "2019-02-08T00:50:45Z",
+      "number": 346,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Handle \"repeatable\": \"true\" for a resource property",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/346"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-02-13T18:35:06Z",
+      "createdAt": "2019-02-08T01:04:20Z",
+      "number": 347,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "Indicate when a field is non-repeatable",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/347"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-09T22:00:52Z",
+      "createdAt": "2019-02-08T01:40:52Z",
+      "number": 348,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "hudajkhan"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "lookups to multiple sources per field",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/348"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-07T17:17:02Z",
+      "createdAt": "2019-02-11T22:57:46Z",
+      "number": 349,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "JWT Authentication for Editor route",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/349"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-13T19:29:13Z",
+      "createdAt": "2019-02-12T18:45:20Z",
+      "number": 351,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "When you click on the values button for a modal on the resource template form...",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/351"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-12T01:06:23Z",
+      "createdAt": "2019-02-12T18:47:29Z",
+      "number": 352,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "When there is more than one modal button in a button group on the RT form....",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/352"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-12T01:04:10Z",
+      "createdAt": "2019-02-13T17:21:50Z",
+      "number": 355,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "Do we still need redux connection on ResourceTemplateModal",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/355"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-02-13T21:38:00Z",
+      "createdAt": "2019-02-13T19:08:32Z",
+      "number": 357,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "When you click on the trash can icon for a value button, remove the content from the store",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/357"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-02-14T00:10:39Z",
+      "createdAt": "2019-02-13T20:47:22Z",
+      "number": 358,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "Duplicating Redux State for Multiple Properties",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/358"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-02-14T18:38:41Z",
+      "createdAt": "2019-02-13T23:04:40Z",
+      "number": 361,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "Fix Warning: Encountered two children with the same key, `0`.",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/361"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-02-15T22:03:53Z",
+      "createdAt": "2019-02-14T23:32:26Z",
+      "number": 365,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "repopulate defaults after loading a template",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/365"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-02-19T23:56:40Z",
+      "createdAt": "2019-02-15T19:37:19Z",
+      "number": 367,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "Some unit tests produce a Jest error",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/367"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-04T22:57:17Z",
+      "createdAt": "2019-02-25T17:32:50Z",
+      "number": 372,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "JWT authorization for the Import Template route.",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/372"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-22T17:56:34Z",
+      "createdAt": "2019-02-25T17:54:04Z",
+      "number": 373,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          },
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Upload Profile to Sinopia Server",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/373"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-07T23:47:50Z",
+      "createdAt": "2019-02-25T21:36:42Z",
+      "number": 374,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "Update Sinopia Home page with 0.2.0 release for Milestone 2",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/374"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-07-12T17:15:26Z",
+      "createdAt": "2019-02-27T00:08:31Z",
+      "number": 376,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Remove cruft from tests",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/376"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-31T15:17:27Z",
+      "createdAt": "2019-03-01T17:35:49Z",
+      "number": 378,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jmartin-sul"
+            }
+          },
+          {
+            "node": {
+              "login": "rsmith11"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "pass cognito identity pool id to editor",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/378"
+    }
+  },
+  {
+    "node": {
+      "closedAt": null,
+      "createdAt": "2019-03-01T23:22:07Z",
+      "number": 380,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle Two",
+                "number": 1
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "OPEN",
+      "title": "Figure out a way to test routing of private routes that redirect to external AWS logon",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/380"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-06T20:01:52Z",
+      "createdAt": "2019-03-02T19:32:40Z",
+      "number": 381,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "Parse JWT in UI with AWS SDK",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/381"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-04T22:57:17Z",
+      "createdAt": "2019-03-03T04:02:45Z",
+      "number": 382,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "Call AWS Logout endpoint when signing out",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/382"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-06T16:35:36Z",
+      "createdAt": "2019-01-08T00:12:17Z",
+      "number": 383,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "sinopia.io links (to BFF ...)  should depend on loc (stage -->  stage)",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/383"
+    }
+  },
+  {
+    "node": {
+      "closedAt": null,
+      "createdAt": "2019-03-05T17:56:25Z",
+      "number": 385,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle Two",
+                "number": 1
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "OPEN",
+      "title": "Strongly verify Cognito JWT claims",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/385"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-28T23:36:25Z",
+      "createdAt": "2019-03-06T16:40:56Z",
+      "number": 387,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "PropertyPanel UI -- Add Button disabled when repeatable is false and more than one value ",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/387"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-25T17:29:48Z",
+      "createdAt": "2019-03-06T19:13:28Z",
+      "number": 388,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "PropertyOutline Rendering of Resource Template",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/388"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-14T23:20:19Z",
+      "createdAt": "2019-03-06T20:50:46Z",
+      "number": 389,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Profile schema should not require default URI",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/389"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-21T22:27:06Z",
+      "createdAt": "2019-03-06T21:04:53Z",
+      "number": 390,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "when a property template with NO default value follows another property template that DOES have a default value, the second property template incorrectly displays a default value",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/390"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-21T22:27:06Z",
+      "createdAt": "2019-03-06T21:23:45Z",
+      "number": 391,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "entered value is mistakenly duplicated across all literal fields in Profile",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/391"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-06-20T19:14:59Z",
+      "createdAt": "2019-03-06T21:48:18Z",
+      "number": 392,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "remove tooltip \"please fill out this field\" for required literal fields",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/392"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-15T15:38:50Z",
+      "createdAt": "2019-03-06T21:56:18Z",
+      "number": 393,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "hudajkhan"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Display resourceLabel and resourceId in Editor Header",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/393"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-12T23:27:51Z",
+      "createdAt": "2019-03-06T21:59:32Z",
+      "number": 394,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "When a profile or resource template is loaded via the Import Resource Tab update the Editor tab",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/394"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-10T18:35:56Z",
+      "createdAt": "2019-03-07T16:49:32Z",
+      "number": 396,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "update schema version info message in Linked Data Editor?",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/396"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-30T22:19:49Z",
+      "createdAt": "2019-03-08T22:25:30Z",
+      "number": 404,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Preview RDF Modal Working Again",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/404"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-12T22:31:14Z",
+      "createdAt": "2019-03-12T16:03:30Z",
+      "number": 406,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "Profile-Editor link has unresolvable URL",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/406"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-31T15:18:47Z",
+      "createdAt": "2019-03-13T16:11:38Z",
+      "number": 411,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Defaults from Resource Templates Rendering",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/411"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-02T20:23:30Z",
+      "createdAt": "2019-03-13T16:17:16Z",
+      "number": 412,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "InputLiteral, InputListLOC, and InputLookupQA use common reducers",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/412"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-07-17T14:42:55Z",
+      "createdAt": "2019-03-13T19:19:40Z",
+      "number": 413,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle Two",
+                "number": 1
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Refactor PropertyTemplateOutline and ResourceTemplateForm ",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/413"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-15T15:39:25Z",
+      "createdAt": "2019-03-13T20:28:41Z",
+      "number": 414,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "When entering a value in a literal field, PropertyPanelUI resets to default resource template",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/414"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-23T19:53:28Z",
+      "createdAt": "2019-03-13T20:38:39Z",
+      "number": 415,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Editor component crashes if a schema-invalid template is loaded",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/415"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-28T22:39:16Z",
+      "createdAt": "2019-03-14T21:24:31Z",
+      "number": 418,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Display a List of Available Resource Templates",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/418"
+    }
+  },
+  {
+    "node": {
+      "closedAt": null,
+      "createdAt": "2019-03-18T19:57:33Z",
+      "number": 421,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "aaron-collier"
+            }
+          },
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "OPEN",
+      "title": "Editor components Integration test",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/421"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-21T18:05:18Z",
+      "createdAt": "2019-03-18T20:14:16Z",
+      "number": 422,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Add Casalini QA Sources",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/422"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-07-18T21:01:29Z",
+      "createdAt": "2019-03-18T20:22:47Z",
+      "number": 423,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "jcoyne"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "RDF expectations from a given RT",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/423"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-22T21:33:27Z",
+      "createdAt": "2019-03-20T16:34:47Z",
+      "number": 427,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Focus jumps to First title field in form",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/427"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-21T22:27:06Z",
+      "createdAt": "2019-03-20T17:44:38Z",
+      "number": 428,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Input Literal Uses selectorReducer",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/428"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-28T18:20:22Z",
+      "createdAt": "2019-03-20T17:45:42Z",
+      "number": 429,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "hudajkhan"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "InputLookupQA uses selectorReducer",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/429"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-07T23:49:17Z",
+      "createdAt": "2019-03-20T17:45:10Z",
+      "number": 430,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "InputListLOC uses selectorReducer",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/430"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-28T21:36:33Z",
+      "createdAt": "2019-03-21T19:31:14Z",
+      "number": 432,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          },
+          {
+            "node": {
+              "login": "jmartin-sul"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Sign Out does not work on first try (when staying on home page)",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/432"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-25T17:27:20Z",
+      "createdAt": "2019-03-25T15:02:13Z",
+      "number": 435,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Make Help menu scrollable",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/435"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-15T18:47:09Z",
+      "createdAt": "2019-03-25T16:47:56Z",
+      "number": 436,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Add Links to SinopiaResourceTemplates",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/436"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-03-28T23:05:04Z",
+      "createdAt": "2019-03-27T23:26:33Z",
+      "number": 438,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Make loaded resource templates links to load in editor tab",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/438"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-07-16T19:45:39Z",
+      "createdAt": "2019-04-01T16:32:29Z",
+      "number": 442,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "jcoyne"
+            }
+          },
+          {
+            "node": {
+              "login": "aaron-collier"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "InputLookupSinopia React Component",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/442"
+    }
+  },
+  {
+    "node": {
+      "closedAt": null,
+      "createdAt": "2019-04-04T19:55:03Z",
+      "number": 444,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "hudajkhan"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "OPEN",
+      "title": "Reducify code for displaying resource template label and ID",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/444"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-06-07T16:30:03Z",
+      "createdAt": "2019-04-04T19:58:11Z",
+      "number": 445,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "hudajkhan"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "justinlittman"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "aaron-collier"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Ensure embedded lookups work with changes to ResourceTemplateForm",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/445"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-24T17:29:04Z",
+      "createdAt": "2019-04-11T15:45:57Z",
+      "number": 448,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "gracianipicardo"
+            }
+          },
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Profile editor exports v0.0.9 JSON file + LD editor validation error for v0.1.0 JSON file",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/448"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-07-17T15:13:25Z",
+      "createdAt": "2019-03-20T18:36:45Z",
+      "number": 450,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "logging in should return you to the page you started on",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/450"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-15T20:50:50Z",
+      "createdAt": "2019-04-15T20:49:17Z",
+      "number": 451,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "CLOSED",
+      "title": "naomi's new issue",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/451"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-24T22:38:05Z",
+      "createdAt": "2019-04-17T15:55:26Z",
+      "number": 454,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Warn User when uploading a profile with an existing ID.",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/454"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-07T17:56:29Z",
+      "createdAt": "2019-04-17T16:49:20Z",
+      "number": 455,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Resource Template reducers causing inconsistent Redux state",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/455"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-23T21:57:42Z",
+      "createdAt": "2019-04-17T17:21:30Z",
+      "number": 456,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Set trellis server address in config",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/456"
+    }
+  },
+  {
+    "node": {
+      "closedAt": null,
+      "createdAt": "2019-04-17T17:31:16Z",
+      "number": 457,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "OPEN",
+      "title": "use npm config package in  editor (for consistency) - time bound",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/457"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-02T20:09:25Z",
+      "createdAt": "2019-04-17T19:39:46Z",
+      "number": 458,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "rsmith11"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Update container definition in Terraform to pass environment variable",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/458"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-26T20:14:12Z",
+      "createdAt": "2019-04-17T21:05:15Z",
+      "number": 459,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Allow editor to be configured via environment variables",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/459"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-25T23:00:01Z",
+      "createdAt": "2019-04-23T23:29:56Z",
+      "number": 463,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Add a test that ensures RTs with spaceful IDs fail to validate?",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/463"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-14T23:30:40Z",
+      "createdAt": "2019-04-24T06:38:15Z",
+      "number": 464,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Profile gets error upon import to Linked Data Editor",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/464"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-31T19:06:11Z",
+      "createdAt": "2019-04-24T18:12:52Z",
+      "number": 465,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "InputLookupQA Uses Selector Reducer",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/465"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-25T01:51:15Z",
+      "createdAt": "2019-04-25T00:22:56Z",
+      "number": 467,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "address various security alerts by updating npm dependencies",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/467"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-07-09T18:07:00Z",
+      "createdAt": "2019-04-25T00:54:39Z",
+      "number": 468,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jmartin-sul"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "update eslint-plugin-react npm package ",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/468"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-30T22:25:04Z",
+      "createdAt": "2019-04-26T17:48:05Z",
+      "number": 473,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Determine what to do with linked data reducer",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/473"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-29T15:29:57Z",
+      "createdAt": "2019-04-26T22:28:14Z",
+      "number": 474,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Pass Cognito credentials to ACL migration via env variables",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/474"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-30T16:07:16Z",
+      "createdAt": "2019-04-29T21:17:18Z",
+      "number": 479,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Change name of \"Import Resource Template\" tab to \"Resource Templates\"",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/479"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-02T16:29:52Z",
+      "createdAt": "2019-04-29T21:19:13Z",
+      "number": 480,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "When user clicks \"Linked Data Editor\" or goes directly to sinopia.io/editor, take them to the \"Resource Templates\" tab",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/480"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-06-03T19:02:03Z",
+      "createdAt": "2019-04-30T01:02:46Z",
+      "number": 481,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "jcoyne"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "getAllRdf() reducer ... returns jsonld",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/481"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-04-30T16:41:41Z",
+      "createdAt": "2019-04-30T16:06:22Z",
+      "number": 485,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Rename route /import to /templates",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/485"
+    }
+  },
+  {
+    "node": {
+      "closedAt": null,
+      "createdAt": "2019-05-02T15:45:31Z",
+      "number": 494,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle Two",
+                "number": 1
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "OPEN",
+      "title": "Allow user to request an alternate QA lookup language",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/494"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-07-17T14:50:40Z",
+      "createdAt": "2019-05-02T16:06:09Z",
+      "number": 495,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jmartin-sul"
+            }
+          },
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Modify when a user is forced to login",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/495"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-16T20:05:06Z",
+      "createdAt": "2019-05-02T16:36:56Z",
+      "number": 496,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "PropertyTemplateOutline, ResourceTemplateForm False Positive Tests Clean-up ",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/496"
+    }
+  },
+  {
+    "node": {
+      "closedAt": null,
+      "createdAt": "2019-05-03T17:46:45Z",
+      "number": 498,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "OPEN",
+      "title": "have puppeteer integration tests included in code coverage stats",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/498"
+    }
+  },
+  {
+    "node": {
+      "closedAt": null,
+      "createdAt": "2019-03-20T18:00:28Z",
+      "number": 500,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "OPEN",
+      "title": "Increase Test Coverage on ResourceTemplateForm",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/500"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-17T22:34:30Z",
+      "createdAt": "2019-05-07T17:43:45Z",
+      "number": 506,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Running on the AWS server, uploading an existing RT does not actually update RT",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/506"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-21T19:00:26Z",
+      "createdAt": "2019-05-07T17:44:14Z",
+      "number": 507,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "(Safari, Firefox) Browser not refreshing list of Resource Templates",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/507"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-07T22:32:24Z",
+      "createdAt": "2019-05-07T17:44:29Z",
+      "number": 508,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "import templates page - do not list groups",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/508"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-13T18:36:28Z",
+      "createdAt": "2019-05-07T17:54:42Z",
+      "number": 509,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Clicking the plus to expand a property with a nested resource does not work",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/509"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-13T22:08:54Z",
+      "createdAt": "2019-05-07T18:28:54Z",
+      "number": 510,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "ensure deployed editor gives warning to user when trying to save a resource template that already exists",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/510"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-30T23:29:45Z",
+      "createdAt": "2019-04-25T19:12:11Z",
+      "number": 511,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Create Tagged Release 0.3.0 of sinopia_editor",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/511"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-26T03:00:43Z",
+      "createdAt": "2019-05-08T16:41:15Z",
+      "number": 516,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "hudajkhan"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Lookup not returning anything from search",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/516"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-16T20:05:06Z",
+      "createdAt": "2019-05-09T14:35:17Z",
+      "number": 517,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "fix message given when trying to open RT that points to an RT that Trellis doesn't know about",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/517"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-15T21:59:47Z",
+      "createdAt": "2019-05-09T15:33:53Z",
+      "number": 518,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          },
+          {
+            "node": {
+              "login": "ndushay"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "sign in or create new account or retrieve forgotten password on PRD gives error",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/518"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-06-11T16:38:22Z",
+      "createdAt": "2019-05-13T19:04:44Z",
+      "number": 519,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Wiki documentation for React Components",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/519"
+    }
+  },
+  {
+    "node": {
+      "closedAt": null,
+      "createdAt": "2019-05-13T22:42:45Z",
+      "number": 520,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "OPEN",
+      "title": "Wiki Documentation on Redux State",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/520"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-30T21:16:00Z",
+      "createdAt": "2019-05-14T07:26:26Z",
+      "number": 521,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "\"Guiding statement for use of this property\" is not showing up as expected as a mouseover tooltip in Linked Data Editor",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/521"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-22T23:10:02Z",
+      "createdAt": "2019-05-15T19:25:35Z",
+      "number": 524,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "newly uploaded Resource Templates do not show up in Resource Template list in other sessions",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/524"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-17T21:07:21Z",
+      "createdAt": "2019-05-15T22:17:38Z",
+      "number": 526,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "email notification of new account creation on PRD has stopped",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/526"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-23T17:35:32Z",
+      "createdAt": "2019-05-16T23:35:58Z",
+      "number": 527,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jgreben"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Refactor components and tests for ResourceTemplateForm and PropertyTemplateOutline",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/527"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-24T18:18:28Z",
+      "createdAt": "2019-05-17T00:00:03Z",
+      "number": 528,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jmartin-sul"
+            }
+          },
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "follow on work for Amplify SDK session management",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/528"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-06-10T14:12:06Z",
+      "createdAt": "2019-05-17T15:24:24Z",
+      "number": 529,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          },
+          {
+            "node": {
+              "login": "justinlittman"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "Fix displayLang in InputLiteral",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/529"
+    }
+  },
+  {
+    "node": {
+      "closedAt": "2019-05-21T19:00:26Z",
+      "createdAt": "2019-05-17T22:14:13Z",
+      "number": 531,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "michelleif"
+            }
+          },
+          {
+            "node": {
+              "login": "mjgiarlo"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle One",
+                "number": 3
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
+      },
+      "state": "CLOSED",
+      "title": "import resource template: prevent user from uploading more than one file at a time",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/531"
+    }
+  },
+  {
+    "node": {
+      "closedAt": null,
+      "createdAt": "2019-05-17T22:25:49Z",
+      "number": 532,
+      "participants": {
+        "edges": [
+          {
+            "node": {
+              "login": "jermnelson"
+            }
+          }
+        ]
+      },
+      "projectCards": {
+        "edges": []
+      },
+      "state": "OPEN",
+      "title": "SinopiaResourceTemplates break Error Messages",
+      "url": "https://github.com/LD4P/sinopia_editor/issues/532"
+    }
+  }
+]

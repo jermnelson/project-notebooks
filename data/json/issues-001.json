@@ -137,7 +137,17 @@
         ]
       },
       "projectCards": {
-        "edges": []
+        "edges": [
+          {
+            "node": {
+              "project": {
+                "name": "Sinopia Work-Cycle Two",
+                "number": 1
+              },
+              "state": "CONTENT_ONLY"
+            }
+          }
+        ]
       },
       "state": "OPEN",
       "title": "configuration supports node.js best-practices",

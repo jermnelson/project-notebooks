@@ -1,0 +1,4325 @@
+{
+  "data": {
+    "repository": {
+      "pullRequests": {
+        "edges": [
+          {
+            "node": {
+              "closedAt": "2019-06-06T21:45:35Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-06-06T11:41:52-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-06T16:41:52Z",
+                        "deletions": 7,
+                        "messageHeadline": "Remove unused state",
+                        "oid": "2361571267a783a250dc0516ec55c5d2f6eccc76"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 27,
+                        "author": {
+                          "date": "2019-06-06T11:47:44-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-06T17:19:13Z",
+                        "deletions": 31,
+                        "messageHeadline": "Make RDFModal a purely functional component",
+                        "oid": "0add08a4dde308fb0de27472cbb32e2e457b733e"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-06T16:42:30Z",
+              "mergedAt": "2019-06-06T21:45:35Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 654,
+              "state": "MERGED",
+              "title": "Remove unused state and make RDFModal functional"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-06T19:41:05Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-06-06T12:11:18-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-06T17:11:18Z",
+                        "deletions": 3,
+                        "messageHeadline": "Use the built-in close button",
+                        "oid": "cecb58ec07ad361fc4d790bc65f3749b09dd355a"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-06T17:11:59Z",
+              "mergedAt": "2019-06-06T19:41:05Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 655,
+              "state": "MERGED",
+              "title": "Use the built-in close button"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-06T19:12:59Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 22,
+                        "author": {
+                          "date": "2019-06-06T10:46:59-07:00",
+                          "user": {
+                            "login": "peetucket"
+                          }
+                        },
+                        "committedDate": "2019-06-06T18:04:33Z",
+                        "deletions": 7,
+                        "messageHeadline": "update documentation on how to run all tests",
+                        "oid": "dcdd32b0f8361b99a45e21f52e2cd52893dd8100"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-06T17:47:28Z",
+              "mergedAt": "2019-06-06T19:12:59Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 656,
+              "state": "MERGED",
+              "title": "update documentation on how to run all tests"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-06T19:37:10Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-06-06T14:26:14-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-06T19:26:14Z",
+                        "deletions": 4129,
+                        "messageHeadline": "Remove unused stylesheet",
+                        "oid": "a1b3afe30179489175af668cbe4084ddbc26d4e2"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-06T19:26:35Z",
+              "mergedAt": "2019-06-06T19:37:10Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 657,
+              "state": "MERGED",
+              "title": "Remove unused stylesheet"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-06T20:48:04Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 31,
+                        "author": {
+                          "date": "2019-06-06T15:42:19-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-06-06T20:33:54Z",
+                        "deletions": 37,
+                        "messageHeadline": "Fixes reduxPath building and corrects GraphBuilder assumption about n\u2026",
+                        "oid": "2e47536cf177675b540ed906b914035f5cdf119f"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-06T19:42:53Z",
+              "mergedAt": "2019-06-06T20:48:03Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 658,
+              "state": "MERGED",
+              "title": "Fixes reduxPath building and corrects GraphBuilder assumption about n\u2026"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-06T22:08:36Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 19,
+                        "author": {
+                          "date": "2019-06-06T14:47:48-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-06T20:14:49Z",
+                        "deletions": 8,
+                        "messageHeadline": "Filter ld4p out of the list of groups you can save into",
+                        "oid": "f77afcba3581a6cfb3c4c1fde6346e3680d6e605"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-06T19:48:59Z",
+              "mergedAt": "2019-06-06T22:08:36Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 659,
+              "state": "MERGED",
+              "title": "Filter ld4p out of the list of groups you can save into"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-06T22:02:47Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 3,
+                        "author": {
+                          "date": "2019-06-06T17:12:13-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-06-06T21:12:13Z",
+                        "deletions": 3,
+                        "messageHeadline": "Fixed example in GraphBuilder.",
+                        "oid": "78272eb28c7b10bd337fd590600e7907bf6561c0"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-06T21:12:18Z",
+              "mergedAt": "2019-06-06T22:02:46Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 661,
+              "state": "MERGED",
+              "title": "Fixed example in GraphBuilder."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-06T22:04:54Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 6,
+                        "author": {
+                          "date": "2019-06-06T14:24:53-07:00",
+                          "user": {
+                            "login": "peetucket"
+                          }
+                        },
+                        "committedDate": "2019-06-06T21:24:53Z",
+                        "deletions": 0,
+                        "messageHeadline": "indicate how you can run linter and tests at the same time",
+                        "oid": "9efb8732bd7cfefc579926983b2e6f3128b0537c"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-06T21:26:58Z",
+              "mergedAt": "2019-06-06T22:04:54Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 662,
+              "state": "MERGED",
+              "title": "indicate how you can run linter and tests at the same time"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-10T22:32:46Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 231,
+                        "author": {
+                          "date": "2019-06-10T15:18:42-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-10T22:18:42Z",
+                        "deletions": 216,
+                        "messageHeadline": "Clean up ESLINT rules and update code for consistency",
+                        "oid": "66c3f8fdb236a23883a6a5046679b8780991e764"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-06T22:17:34Z",
+              "mergedAt": "2019-06-10T22:32:46Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 663,
+              "state": "MERGED",
+              "title": "Clean up ESLINT rules and update code for consistency"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-07T15:56:03Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 317,
+                        "author": {
+                          "date": "2019-06-07T08:39:36-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-07T14:03:44Z",
+                        "deletions": 120,
+                        "messageHeadline": "Save resource to Trellis",
+                        "oid": "bb2a83a44b35947cd2a54dd4178d93f4b4ece7cc"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-07T14:01:10Z",
+              "mergedAt": "2019-06-07T15:56:03Z",
+              "mergedBy": {
+                "login": "mjgiarlo"
+              },
+              "number": 665,
+              "state": "MERGED",
+              "title": "Save resource to Trellis"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-07T17:09:11Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 100,
+                        "author": {
+                          "date": "2019-06-07T11:19:45-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-06-07T16:56:33Z",
+                        "deletions": 24,
+                        "messageHeadline": "Adds rdfClass for children.",
+                        "oid": "40f5fce78653dc522bca20bdd789f682ec2f74dc"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-07T15:20:17Z",
+              "mergedAt": "2019-06-07T17:09:10Z",
+              "mergedBy": {
+                "login": "aaron-collier"
+              },
+              "number": 668,
+              "state": "MERGED",
+              "title": "Adds rdfClass for children."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-11T18:02:20Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 23,
+                        "author": {
+                          "date": "2019-06-07T13:21:38-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-07T20:21:38Z",
+                        "deletions": 0,
+                        "messageHeadline": "Simple integration test for unauthenticated users",
+                        "oid": "4741670695a2df6465fac0d73361fce69c3ae83b"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-06-07T13:24:26-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-07T20:24:26Z",
+                        "deletions": 1,
+                        "messageHeadline": "Fix indentation",
+                        "oid": "5691e5aaa4d9b8afe835f9c837ae945770ed5b54"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-06-07T13:29:51-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-07T20:29:51Z",
+                        "deletions": 2,
+                        "messageHeadline": "Fix block comment style",
+                        "oid": "4e7183b5b176bfb02da460bfccc8cd095b0356bb"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-06-10T14:21:31-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-10T21:21:31Z",
+                        "deletions": 0,
+                        "messageHeadline": "Add a check that the login form is displayed",
+                        "oid": "a9b16d1797b669fc90d6f01cc703844fb8c92daa"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-07T20:23:35Z",
+              "mergedAt": "2019-06-11T18:02:20Z",
+              "mergedBy": {
+                "login": "jgreben"
+              },
+              "number": 671,
+              "state": "MERGED",
+              "title": "Simple integration test for unauthenticated users"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-11T16:33:17Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 130,
+                        "author": {
+                          "date": "2019-06-05T16:56:18-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-11T15:05:55Z",
+                        "deletions": 58,
+                        "messageHeadline": "Validate the missing fields",
+                        "oid": "4ea351dc73fda66ae25c526a494fbebe26f85ebf"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-07T20:54:10Z",
+              "mergedAt": "2019-06-11T16:33:17Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 672,
+              "state": "MERGED",
+              "title": "Validate"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-10T18:52:49Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-06-10T09:55:14-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-10T17:04:29Z",
+                        "deletions": 0,
+                        "messageHeadline": "Change typeahead default label for empty list",
+                        "oid": "344d6da113fe81483b073b4721124acfe2905177"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 3,
+                        "author": {
+                          "date": "2019-06-10T11:49:01-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-10T18:49:01Z",
+                        "deletions": 3,
+                        "messageHeadline": "use autoFocus prop to automatically call the list when rendered",
+                        "oid": "9642db675b8a1869df063fa65ec112053e12b156"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-10T17:06:00Z",
+              "mergedAt": "2019-06-10T18:52:49Z",
+              "mergedBy": {
+                "login": "peetucket"
+              },
+              "number": 676,
+              "state": "MERGED",
+              "title": "Change default display label for Typeahead component"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-10T22:34:46Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 5,
+                        "author": {
+                          "date": "2019-06-10T12:18:37-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-10T19:18:37Z",
+                        "deletions": 13,
+                        "messageHeadline": "Change button text so as not to be misleading",
+                        "oid": "5dc688ea78b5674e45a63e39a2ba02315ed0449b"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-10T19:20:44Z",
+              "mergedAt": "2019-06-10T22:34:46Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 678,
+              "state": "MERGED",
+              "title": "Change button text so as not to be misleading"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-11T15:03:23Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 3,
+                        "author": {
+                          "date": "2019-06-11T09:59:52-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-11T14:59:52Z",
+                        "deletions": 1,
+                        "messageHeadline": "Fix line to long eslint error",
+                        "oid": "9402aed3e2a040709653347c79591d677b0485a2"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-11T15:00:11Z",
+              "mergedAt": "2019-06-11T15:03:23Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 680,
+              "state": "MERGED",
+              "title": "Fix line to long eslint error"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-11T17:51:24Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 11,
+                        "author": {
+                          "date": "2019-06-11T11:06:58-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-11T16:17:20Z",
+                        "deletions": 20,
+                        "messageHeadline": "[refactor] Simplify populatePropertyDefaults",
+                        "oid": "90737ec010608a216bd4fa3b90d93dcfb0ba5b11"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-11T16:17:53Z",
+              "mergedAt": "2019-06-11T17:51:24Z",
+              "mergedBy": {
+                "login": "jgreben"
+              },
+              "number": 681,
+              "state": "MERGED",
+              "title": "[refactor] Simplify populatePropertyDefaults"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-11T18:17:42Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-06-11T11:07:58-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-11T18:07:58Z",
+                        "deletions": 1,
+                        "messageHeadline": "Fix the copy pasta linter comment error",
+                        "oid": "3ba5ebe9fd2a8a3317d71f9c9f67e558220c34bd"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-06-11T11:13:34-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-11T18:13:34Z",
+                        "deletions": 1,
+                        "messageHeadline": "Set warnings back to 11",
+                        "oid": "57d547cb8c7e0cf008f1d729c4da9f2a38602a75"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-11T18:08:39Z",
+              "mergedAt": "2019-06-11T18:17:42Z",
+              "mergedBy": {
+                "login": "jgreben"
+              },
+              "number": 682,
+              "state": "MERGED",
+              "title": "Fix the copy pasta linter comment error"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-11T18:38:29Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-06-11T11:20:48-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-11T18:20:48Z",
+                        "deletions": 2,
+                        "messageHeadline": "Fix no-catch-shadow linter error",
+                        "oid": "1c2aa0577ae9b8fffee6f612afa1b0c992a8c057"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-11T18:23:40Z",
+              "mergedAt": "2019-06-11T18:38:29Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 683,
+              "state": "MERGED",
+              "title": "Fix no-catch-shadow linter error"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-11T22:43:31Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1379,
+                        "author": {
+                          "date": "2019-06-11T12:13:03-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-11T19:18:44Z",
+                        "deletions": 8,
+                        "messageHeadline": "Fix bug where an undefined label cannot be a default value for the In\u2026",
+                        "oid": "c2dadcf0e9bf4dad081b315547fd0679f17ae8c6"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-11T19:16:23Z",
+              "mergedAt": "2019-06-11T22:43:30Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 684,
+              "state": "MERGED",
+              "title": "Fix undefined label in the InputLookupQA component"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-12T14:59:26Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 72,
+                        "author": {
+                          "date": "2019-06-11T15:34:46-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-06-12T11:18:57Z",
+                        "deletions": 113,
+                        "messageHeadline": "Fixed add buttons.",
+                        "oid": "caa46e583a91992c782af918985d7f4965e4d9ec"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-11T19:35:32Z",
+              "mergedAt": "2019-06-12T14:59:25Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 685,
+              "state": "MERGED",
+              "title": "Fixed add buttons."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-12T20:32:33Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 303,
+                        "author": {
+                          "date": "2019-06-11T16:08:34-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-12T19:38:02Z",
+                        "deletions": 220,
+                        "messageHeadline": "Record the resource template responses into the Redux state",
+                        "oid": "8df4a690e8fd5462be5f779e457f5e6603802e29"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-11T21:09:44Z",
+              "mergedAt": "2019-06-12T20:32:33Z",
+              "mergedBy": {
+                "login": "aaron-collier"
+              },
+              "number": 686,
+              "state": "MERGED",
+              "title": "Record the resource template responses into the Redux state"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-12T15:27:21Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 44,
+                        "author": {
+                          "date": "2019-06-12T08:07:43-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-12T15:21:37Z",
+                        "deletions": 73,
+                        "messageHeadline": "add loginHelper for integration tests",
+                        "oid": "7037b24a20e477f8144aec8321107a3a63369641"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-12T15:10:37Z",
+              "mergedAt": "2019-06-12T15:27:21Z",
+              "mergedBy": {
+                "login": "aaron-collier"
+              },
+              "number": 687,
+              "state": "MERGED",
+              "title": "add loginHelper for integration tests"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-12T20:15:08Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 31,
+                        "author": {
+                          "date": "2019-06-12T11:47:46-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-12T19:58:09Z",
+                        "deletions": 12,
+                        "messageHeadline": "Adds Save and Publish button to Editor component",
+                        "oid": "0afce0e015fd25769d9f20b4a77405e3c422464a"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-12T19:07:00Z",
+              "mergedAt": "2019-06-12T20:15:08Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 695,
+              "state": "MERGED",
+              "title": "Add editor save button"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-12T19:51:51Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 27,
+                        "author": {
+                          "date": "2019-06-12T12:07:17-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-12T19:07:17Z",
+                        "deletions": 18,
+                        "messageHeadline": "add propLabel attribute to improve selectors for integration tests",
+                        "oid": "b5eb27a14b095ebedf14c9359085b5b49f7fa0f9"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 53,
+                        "author": {
+                          "date": "2019-06-12T12:37:49-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-12T19:37:49Z",
+                        "deletions": 14,
+                        "messageHeadline": "ensure no false positives for async tests",
+                        "oid": "d3ed67ddcbb94bc6906f4024b3e929d3a7be26dc"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-12T19:41:45Z",
+              "mergedAt": "2019-06-12T19:51:51Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 696,
+              "state": "MERGED",
+              "title": "improve css selectors in tests; ensure no false positives for async tests"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-13T14:56:31Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 40,
+                        "author": {
+                          "date": "2019-06-13T08:56:48-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-06-13T14:49:28Z",
+                        "deletions": 11,
+                        "messageHeadline": "Switches InputLiteral to get propertyTemplate from state rather than \u2026",
+                        "oid": "29f469665a627f725ae2f3bf524af2da0e6f496e"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-13T12:57:20Z",
+              "mergedAt": "2019-06-13T14:56:31Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 699,
+              "state": "MERGED",
+              "title": "Switches InputLiteral to get propertyTemplate from state rather than \u2026"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-13T14:37:59Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 83,
+                        "author": {
+                          "date": "2019-06-13T10:33:28-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-06-13T14:33:28Z",
+                        "deletions": 25,
+                        "messageHeadline": "Moves display validations to state from prop.",
+                        "oid": "f073ea294cac15602cf737053acf64e4720a9e52"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-13T14:34:01Z",
+              "mergedAt": "2019-06-13T14:37:58Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 700,
+              "state": "MERGED",
+              "title": "Moves display validations to state from prop."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-13T15:50:10Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-06-13T11:08:10-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-06-13T15:08:10Z",
+                        "deletions": 0,
+                        "messageHeadline": "Added comment about property template not being available.",
+                        "oid": "2854c06a0241313775a61441528b38ac5ecadc0d"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-13T15:08:14Z",
+              "mergedAt": "2019-06-13T15:50:10Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 701,
+              "state": "MERGED",
+              "title": "Added comment about property template not being available."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-13T23:28:29Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 81,
+                        "author": {
+                          "date": "2019-06-13T11:43:49-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-06-13T15:43:49Z",
+                        "deletions": 71,
+                        "messageHeadline": "For InputQA, switches from properties to state for propertyTemplate a\u2026",
+                        "oid": "5a0090af5656b986fb6c29375f23dfbf067ce0f1"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-13T15:44:17Z",
+              "mergedAt": "2019-06-13T23:28:29Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 702,
+              "state": "MERGED",
+              "title": "For InputQA, switches from properties to state for propertyTemplate a\u2026"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-13T16:29:43Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 189,
+                        "author": {
+                          "date": "2019-06-13T11:04:32-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-13T16:09:35Z",
+                        "deletions": 197,
+                        "messageHeadline": "Fixed a bug where setBaseURI was not in the right redux path.",
+                        "oid": "353c1aaf2cba862891802ee2267871dcb942e050"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-13T16:07:17Z",
+              "mergedAt": "2019-06-13T16:29:43Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 704,
+              "state": "MERGED",
+              "title": "Fixed a bug where setBaseURI was not in the right redux path."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-13T17:21:54Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 3,
+                        "author": {
+                          "date": "2019-06-13T11:15:36-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-13T17:18:38Z",
+                        "deletions": 4,
+                        "messageHeadline": "Refactor displayValidations and getPropertyTemplate to use findNode",
+                        "oid": "96bfd68e0344590f8046e5fae3b3ba40c89bee1f"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-13T16:26:26Z",
+              "mergedAt": "2019-06-13T17:21:54Z",
+              "mergedBy": {
+                "login": "aaron-collier"
+              },
+              "number": 705,
+              "state": "MERGED",
+              "title": "Refactor displayValidations and getPropertyTemplate to use findNode"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-13T17:01:14Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 8,
+                        "author": {
+                          "date": "2019-06-13T11:54:18-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-13T16:54:18Z",
+                        "deletions": 18,
+                        "messageHeadline": "Combine tests that depend on one another",
+                        "oid": "0e7bea9d636191a0c83a52128feca6e4bc5afbff"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-13T16:56:22Z",
+              "mergedAt": "2019-06-13T17:01:13Z",
+              "mergedBy": {
+                "login": "jmartin-sul"
+              },
+              "number": 706,
+              "state": "MERGED",
+              "title": "Combine tests that depend on one another"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-13T17:14:43Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 5,
+                        "author": {
+                          "date": "2019-06-13T12:10:51-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-13T17:10:51Z",
+                        "deletions": 5,
+                        "messageHeadline": "Change propLabel to data-label",
+                        "oid": "f207672803d14565a4703100b670e8ef3e932f0e"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-13T17:11:23Z",
+              "mergedAt": "2019-06-13T17:14:43Z",
+              "mergedBy": {
+                "login": "jmartin-sul"
+              },
+              "number": 708,
+              "state": "MERGED",
+              "title": "Change propLabel to data-label"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-13T17:16:08Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 72,
+                        "author": {
+                          "date": "2019-06-13T13:13:14-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-06-13T17:13:14Z",
+                        "deletions": 0,
+                        "messageHeadline": "Adds additional index reducer tests.",
+                        "oid": "e61f2d574d1685a0488516e68fb33a94ae5f03e1"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-13T17:13:43Z",
+              "mergedAt": "2019-06-13T17:16:08Z",
+              "mergedBy": {
+                "login": "aaron-collier"
+              },
+              "number": 709,
+              "state": "MERGED",
+              "title": "Adds additional index reducer tests."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-13T19:05:01Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 15,
+                        "author": {
+                          "date": "2019-06-13T13:28:45-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-13T18:28:45Z",
+                        "deletions": 15,
+                        "messageHeadline": "Rename mock to not be confusing",
+                        "oid": "b833448cca9f7f2dce6af5c04ba636976bb3f7f7"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 13,
+                        "author": {
+                          "date": "2019-06-13T13:32:27-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-13T18:32:27Z",
+                        "deletions": 13,
+                        "messageHeadline": "Set up a new object for each test so tests don't leak",
+                        "oid": "b6457bdb10922364a1844f4c00b499143c03ec4e"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 3,
+                        "author": {
+                          "date": "2019-06-13T13:35:11-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-13T18:35:11Z",
+                        "deletions": 6,
+                        "messageHeadline": "Create a new mock for each test",
+                        "oid": "5fca8faa785e6dc8aeeafe68d7c495403bb3092a"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-13T18:36:01Z",
+              "mergedAt": "2019-06-13T19:05:01Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 710,
+              "state": "MERGED",
+              "title": "Ensure tests can be run indenpendently"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-13T20:43:27Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-06-13T14:27:45-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-13T19:57:35Z",
+                        "deletions": 8,
+                        "messageHeadline": "Create a new mock for each test",
+                        "oid": "2cb902ac7da8e1803654f5eb88485b2807fce582"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-13T19:28:17Z",
+              "mergedAt": "2019-06-13T20:43:27Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 711,
+              "state": "MERGED",
+              "title": "Create a new mock for each test"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-13T20:46:21Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 9,
+                        "author": {
+                          "date": "2019-06-13T14:51:55-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-13T19:51:55Z",
+                        "deletions": 11,
+                        "messageHeadline": "Refactor a test to match the reality of the reduxPath",
+                        "oid": "bcc47dac02454c87df2868b86179f7c137d6537a"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-13T19:52:11Z",
+              "mergedAt": "2019-06-13T20:46:21Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 713,
+              "state": "MERGED",
+              "title": "Refactor a test to match the reality of the reduxPath"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-13T21:03:22Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-06-13T14:50:50-06:00",
+                          "user": {
+                            "login": "jermnelson"
+                          }
+                        },
+                        "committedDate": "2019-06-13T20:50:50Z",
+                        "deletions": 2,
+                        "messageHeadline": "Updated version and regenerated lock file",
+                        "oid": "e5e5848f4566fe59193634190fc59079c3713e29"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-13T20:52:00Z",
+              "mergedAt": "2019-06-13T21:03:22Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 714,
+              "state": "MERGED",
+              "title": "Updated version and regenerated lock file"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-13T21:23:00Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 9,
+                        "author": {
+                          "date": "2019-06-13T14:10:19-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-13T21:10:19Z",
+                        "deletions": 1,
+                        "messageHeadline": "Add an integration test for interacting with the input form",
+                        "oid": "7802b3361a491e807c2c97b50c54140cf6975b43"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-13T21:11:21Z",
+              "mergedAt": "2019-06-13T21:23:00Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 715,
+              "state": "MERGED",
+              "title": "Add an integration test for interacting with the input form"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-14T14:30:54Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 19,
+                        "author": {
+                          "date": "2019-06-12T16:47:43-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-13T21:12:05Z",
+                        "deletions": 1,
+                        "messageHeadline": "ResourceTemplateForm loads templates from redux store",
+                        "oid": "ff80351013bfdb0b563933d9ab711697631e96a9"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 27,
+                        "author": {
+                          "date": "2019-06-12T16:49:20-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-13T21:14:30Z",
+                        "deletions": 25,
+                        "messageHeadline": "ResourceTemplateForm - move methods down",
+                        "oid": "ca452715db330192d6faadab3d5df377e2227e8b"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 3,
+                        "author": {
+                          "date": "2019-06-13T11:47:49-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-13T21:14:30Z",
+                        "deletions": 3,
+                        "messageHeadline": "ResourceTemplateForm: only update local state.nestedResourceTemplates\u2026",
+                        "oid": "d9241fd76c78a76f2b219da8dc84ec5e1d3c3f89"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-06-13T14:15:26-07:00",
+                          "user": {
+                            "login": "jmartin-sul"
+                          }
+                        },
+                        "committedDate": "2019-06-13T21:15:26Z",
+                        "deletions": 1,
+                        "messageHeadline": "relax comment capitalization rule to allow comments to start w/ arbit\u2026",
+                        "oid": "f0aa97b53d5947c0620cf23cfa30f7d15ce14aac"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-13T21:21:39Z",
+              "mergedAt": "2019-06-14T14:30:54Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 716,
+              "state": "MERGED",
+              "title": "Get resource template from redux store"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-14T15:27:48Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 317,
+                        "author": {
+                          "date": "2019-06-13T09:38:07-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-14T12:32:12Z",
+                        "deletions": 103,
+                        "messageHeadline": "Display validations at the top level when validate is pressed.",
+                        "oid": "91227b20d5cad89804b23276bde493ef15bb66f1"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-13T21:52:42Z",
+              "mergedAt": "2019-06-14T15:27:48Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 717,
+              "state": "MERGED",
+              "title": "Display validations at the top level when validate is pressed."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-14T16:45:42Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 8,
+                        "author": {
+                          "date": "2019-06-14T09:34:25-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-14T16:34:25Z",
+                        "deletions": 0,
+                        "messageHeadline": "Add an intergration test for non-roman entry into a literal",
+                        "oid": "6486b98bb32e26fd0f99336d285315c61f9eb2e2"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-06-14T09:39:00-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-14T16:39:00Z",
+                        "deletions": 1,
+                        "messageHeadline": "Fix noob linting error",
+                        "oid": "9524297676970d43a3278870b7ee6e364036efc6"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-14T16:35:33Z",
+              "mergedAt": "2019-06-14T16:45:42Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 721,
+              "state": "MERGED",
+              "title": "Add an intergration test for non-roman entry into a literal"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-14T18:12:23Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 81,
+                        "author": {
+                          "date": "2019-06-14T11:29:59-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-14T17:32:31Z",
+                        "deletions": 35,
+                        "messageHeadline": "Move local editor state for showing group choice modal to the Redux s\u2026",
+                        "oid": "735ae3278d289bca39b25ebba3418e26632bd497"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-14T16:36:20Z",
+              "mergedAt": "2019-06-14T18:12:23Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 722,
+              "state": "MERGED",
+              "title": "Move local editor state for showing group choice modal to the Redux s\u2026"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-14T16:43:20Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-06-14T11:39:28-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-14T16:39:28Z",
+                        "deletions": 5,
+                        "messageHeadline": "Remove unnecessary indirection",
+                        "oid": "3b8a813e7ae83d6db427b9cbf317813f53b50481"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-14T16:39:53Z",
+              "mergedAt": "2019-06-14T16:43:20Z",
+              "mergedBy": {
+                "login": "aaron-collier"
+              },
+              "number": 723,
+              "state": "MERGED",
+              "title": "Remove unnecessary indirection"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-14T16:58:38Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-06-14T09:49:52-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-14T16:49:52Z",
+                        "deletions": 1,
+                        "messageHeadline": "Remove test screenshot",
+                        "oid": "3a279b74ef29b1f14d1bb5288da17a7484166c15"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-14T16:50:37Z",
+              "mergedAt": "2019-06-14T16:58:38Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 724,
+              "state": "MERGED",
+              "title": "Remove test screenshot"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-14T18:32:22Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 77,
+                        "author": {
+                          "date": "2019-06-14T12:16:55-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-14T18:26:49Z",
+                        "deletions": 38,
+                        "messageHeadline": "Move state for showing preview to the redux store",
+                        "oid": "c28f2205247d98579d91b600fad24049b43479e1"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-14T17:17:38Z",
+              "mergedAt": "2019-06-14T18:32:22Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 725,
+              "state": "MERGED",
+              "title": "Move state for showing preview to the redux store"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-14T18:28:58Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 6,
+                        "author": {
+                          "date": "2019-06-14T12:54:17-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-14T17:54:17Z",
+                        "deletions": 10,
+                        "messageHeadline": "Remove unused variable tempRtState",
+                        "oid": "62be1d0fad0c1abf1ec6a5c0bf2753778609d627"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-14T17:55:20Z",
+              "mergedAt": "2019-06-14T18:28:58Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 726,
+              "state": "MERGED",
+              "title": "Remove unused variable tempRtState"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-18T19:18:33Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 9,
+                        "author": {
+                          "date": "2019-06-14T11:11:18-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-14T18:11:18Z",
+                        "deletions": 5,
+                        "messageHeadline": "Do not allow duplicate properties to be added when clicking the plus \u2026",
+                        "oid": "66d8d04bdc871eb67b3fdedaa0bac961bd15f5a8"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-06-14T12:37:32-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-14T19:37:32Z",
+                        "deletions": 2,
+                        "messageHeadline": "Use existing rowAdded state instead of creating a new state",
+                        "oid": "6c0ff2e360c8b2d1f2ff394249c0ac404866a463"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 11,
+                        "author": {
+                          "date": "2019-06-14T13:15:31-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-14T20:15:31Z",
+                        "deletions": 0,
+                        "messageHeadline": "Add test to ensure a property row is not added when clicking the coll\u2026",
+                        "oid": "c92002789056b7e1e644307c6543b2c4213c0532"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-06-14T13:23:47-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-14T20:23:47Z",
+                        "deletions": 1,
+                        "messageHeadline": "Fix eslint error, I did this to myself",
+                        "oid": "01372492fe9ace523ef2525660eeee2f566fb71b"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-14T18:09:46Z",
+              "mergedAt": "2019-06-18T19:18:32Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 727,
+              "state": "MERGED",
+              "title": "Do not add extra property rows when clicking the plus/add button."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-14T19:14:34Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 39,
+                        "author": {
+                          "date": "2019-06-14T13:12:43-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-14T18:14:00Z",
+                        "deletions": 46,
+                        "messageHeadline": "Switch GroupChoiceModal to a functional style (without state)",
+                        "oid": "c9649cd3354e7fce087662a0360faada4347ae9f"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-14T18:13:04Z",
+              "mergedAt": "2019-06-14T19:14:34Z",
+              "mergedBy": {
+                "login": "jmartin-sul"
+              },
+              "number": 728,
+              "state": "MERGED",
+              "title": "Switch GroupChoiceModal to a functional style (without state)"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-14T19:11:24Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 55,
+                        "author": {
+                          "date": "2019-06-14T09:31:37-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-14T19:06:27Z",
+                        "deletions": 59,
+                        "messageHeadline": "Utilities.templateBoolean() removed in favor of booleanPropertyFromTe\u2026",
+                        "oid": "b0b12a6b40c8e77b4ea9a93bc2e343f7f054d367"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-14T19:07:51Z",
+              "mergedAt": "2019-06-14T19:11:24Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 729,
+              "state": "MERGED",
+              "title": "use Utilities.booleanPropertyFromTemplate and remove  .templateBoolean()"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-14T19:17:35Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-06-14T12:13:34-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-14T19:13:34Z",
+                        "deletions": 2,
+                        "messageHeadline": "remove eslint padding-line rule",
+                        "oid": "597285227bae1f8335497aff7d7b964cbe2058a8"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-14T19:13:57Z",
+              "mergedAt": "2019-06-14T19:17:34Z",
+              "mergedBy": {
+                "login": "jmartin-sul"
+              },
+              "number": 730,
+              "state": "MERGED",
+              "title": "remove eslint padding-line rule"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-17T16:29:09Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 130,
+                        "author": {
+                          "date": "2019-06-14T14:59:23-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-17T15:30:48Z",
+                        "deletions": 91,
+                        "messageHeadline": "Validate when pressing the save button",
+                        "oid": "1726c45e009a9e245f0c23efedd0cccd46cb1863"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-14T19:59:44Z",
+              "mergedAt": "2019-06-17T16:29:09Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 733,
+              "state": "MERGED",
+              "title": "Validate when pressing the save button"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-17T17:53:42Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 39,
+                        "author": {
+                          "date": "2019-06-14T13:12:51-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-17T16:30:00Z",
+                        "deletions": 2,
+                        "messageHeadline": "Check for blank defaultLabel in property template",
+                        "oid": "92c3160c71d7ba62d25ad25485a580de3e6df964"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 24,
+                        "author": {
+                          "date": "2019-06-17T10:09:06-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-17T17:09:06Z",
+                        "deletions": 44,
+                        "messageHeadline": "DRY up reducer inputs functions",
+                        "oid": "9bb4410e1bd55739d631a31e7ae52176a542c6bc"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-14T20:26:28Z",
+              "mergedAt": "2019-06-17T17:53:42Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 734,
+              "state": "MERGED",
+              "title": "Fix Blank Screen when performing a Lookup"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-18T22:57:01Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 10,
+                        "author": {
+                          "date": "2019-06-14T13:25:24-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-18T22:51:41Z",
+                        "deletions": 1,
+                        "messageHeadline": "ResourceProperty: separate state changes from rendering",
+                        "oid": "45465a9321cfd95376cafd0c5b7a094ac33761f7"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-06-18T15:03:58-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-18T22:51:41Z",
+                        "deletions": 1,
+                        "messageHeadline": "eslint: turn off multiline-comment-style",
+                        "oid": "53ab955f2faf4e2a4ae1114db1af3ece97987f52"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-14T20:31:50Z",
+              "mergedAt": "2019-06-18T22:57:01Z",
+              "mergedBy": {
+                "login": "jmartin-sul"
+              },
+              "number": 735,
+              "state": "MERGED",
+              "title": "ResourceProperty: separate state changes from rendering"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-18T12:53:32Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-06-14T15:11:31-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-17T18:13:45Z",
+                        "deletions": 3,
+                        "messageHeadline": "Use Utility boolean function + optional-chaining to determine if an i\u2026",
+                        "oid": "12e102cdb1689cd1c22ee113976af4991464accb"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 6,
+                        "author": {
+                          "date": "2019-06-17T11:03:03-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-17T18:14:21Z",
+                        "deletions": 6,
+                        "messageHeadline": "Use utility function to convert JSON string value to boolean",
+                        "oid": "dd8cd256aea8b203e55b3861e24fda42cfcab8bb"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-14T22:21:34Z",
+              "mergedAt": "2019-06-18T12:53:32Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 737,
+              "state": "MERGED",
+              "title": "Use Utility function in InputLiteral component to determine the boolean values from JSON strings"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-15T05:50:11Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 65,
+                        "author": {
+                          "date": "2019-06-14T17:22:14-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-15T00:31:10Z",
+                        "deletions": 134,
+                        "messageHeadline": "Items must be properties or removing them doesn't cause re-render",
+                        "oid": "697687cb28015d012a7271a765dc833672167ccf"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-14T22:22:42Z",
+              "mergedAt": "2019-06-15T05:50:11Z",
+              "mergedBy": {
+                "login": "jgreben"
+              },
+              "number": 738,
+              "state": "MERGED",
+              "title": "Items must be properties or removing them doesn't cause re-render"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-18T17:38:45Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 48,
+                        "author": {
+                          "date": "2019-06-14T15:20:38-07:00",
+                          "user": {
+                            "login": "jmartin-sul"
+                          }
+                        },
+                        "committedDate": "2019-06-18T07:01:37Z",
+                        "deletions": 23,
+                        "messageHeadline": "get the correct list of groups to display (and sort them in alphabeti\u2026",
+                        "oid": "d1bdae31d8ab1dce701a1e1753589cdcfe5b9de2"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 6,
+                        "author": {
+                          "date": "2019-06-18T00:04:51-07:00",
+                          "user": {
+                            "login": "jmartin-sul"
+                          }
+                        },
+                        "committedDate": "2019-06-18T07:04:51Z",
+                        "deletions": 14,
+                        "messageHeadline": "simplify element selection in a couple of tests",
+                        "oid": "6b8fe99fef15fc060f51610750e726872cd8cdbe"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-15T00:45:56Z",
+              "mergedAt": "2019-06-18T17:38:45Z",
+              "mergedBy": {
+                "login": "jmartin-sul"
+              },
+              "number": 740,
+              "state": "MERGED",
+              "title": "get the correct list of groups to display (and sort them in alphabetical order) when choosing where to save a resource"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-17T20:00:56Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 181,
+                        "author": {
+                          "date": "2019-06-17T11:19:16-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-17T18:03:50Z",
+                        "deletions": 179,
+                        "messageHeadline": "Organize the components into directories by routes",
+                        "oid": "0cfd0646635d71f2d75f855cc60dad72a50f851b"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-17T16:20:59Z",
+              "mergedAt": "2019-06-17T20:00:56Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 741,
+              "state": "MERGED",
+              "title": "[Refactor] Organize the components into directories by routes"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-17T17:40:46Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 8,
+                        "author": {
+                          "date": "2019-06-17T11:50:36-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-17T17:13:11Z",
+                        "deletions": 51,
+                        "messageHeadline": "Reduce indirection by inlining getAllRdf method",
+                        "oid": "a746e6016eaf862b91a7c81fb683969230081b25"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-17T17:11:24Z",
+              "mergedAt": "2019-06-17T17:40:46Z",
+              "mergedBy": {
+                "login": "mjgiarlo"
+              },
+              "number": 742,
+              "state": "MERGED",
+              "title": "Reduce indirection by inlining getAllRdf method"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-17T17:56:26Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 134,
+                        "author": {
+                          "date": "2019-06-17T12:34:31-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-17T17:49:07Z",
+                        "deletions": 44,
+                        "messageHeadline": "Install the babel module-resolver plugin",
+                        "oid": "d7dc295eff9dae9bd4abf2ed1173361a3e236234"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-17T17:34:54Z",
+              "mergedAt": "2019-06-17T17:56:26Z",
+              "mergedBy": {
+                "login": "mjgiarlo"
+              },
+              "number": 743,
+              "state": "MERGED",
+              "title": "Install the babel module-resolver plugin"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-17T18:31:06Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 3,
+                        "author": {
+                          "date": "2019-06-17T13:17:52-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-17T18:17:52Z",
+                        "deletions": 5,
+                        "messageHeadline": "Remove extraneous div",
+                        "oid": "1a70ba196c8eaeb1ea2f1b2dc9bc5e70ee2cb304"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-17T18:18:13Z",
+              "mergedAt": "2019-06-17T18:31:06Z",
+              "mergedBy": {
+                "login": "jgreben"
+              },
+              "number": 744,
+              "state": "MERGED",
+              "title": "Remove extraneous div"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-17T18:50:56Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 39,
+                        "author": {
+                          "date": "2019-06-17T13:32:48-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-17T18:44:19Z",
+                        "deletions": 21,
+                        "messageHeadline": "Extract ErrorMessages from Editor to its own component",
+                        "oid": "931da7856a7aad1c64f3906752fbcb2beffeb1ad"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-17T18:40:09Z",
+              "mergedAt": "2019-06-17T18:50:56Z",
+              "mergedBy": {
+                "login": "jgreben"
+              },
+              "number": 746,
+              "state": "MERGED",
+              "title": "Extract ErrorMessages from Editor to its own component"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-17T19:10:27Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-06-17T11:38:13-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-17T18:38:13Z",
+                        "deletions": 6,
+                        "messageHeadline": "InputListLOC component should use propertyTemplate.repeatable",
+                        "oid": "abf9d92567cbecdeaebfa9eb52a5b3e49c48d256"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-17T18:46:57Z",
+              "mergedAt": "2019-06-17T19:10:27Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 747,
+              "state": "MERGED",
+              "title": "InputListLOC component should use propertyTemplate.repeatable"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-17T19:36:58Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 7,
+                        "author": {
+                          "date": "2019-06-17T13:40:53-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-17T19:29:57Z",
+                        "deletions": 9,
+                        "messageHeadline": "Encapsulate group knowledge in the group component",
+                        "oid": "32fd769c50c8b28dc7641b6e799fde11ab77f01b"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-17T19:12:35Z",
+              "mergedAt": "2019-06-17T19:36:58Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 748,
+              "state": "MERGED",
+              "title": "Encapsulate group knowledge in the group component"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-17T23:26:21Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 61,
+                        "author": {
+                          "date": "2019-06-17T14:27:15-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-17T23:19:08Z",
+                        "deletions": 45,
+                        "messageHeadline": "Move logic for saving to GroupChoiceModal from Editor",
+                        "oid": "559770c0d1740e331a6595cfdc5bb31a562b780b"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-17T19:27:32Z",
+              "mergedAt": "2019-06-17T23:26:21Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 749,
+              "state": "MERGED",
+              "title": "Move logic for saving to GroupChoiceModal from Editor"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-17T20:01:33Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-06-17T14:35:53-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-17T19:43:04Z",
+                        "deletions": 19,
+                        "messageHeadline": "Editor does not need to maintain a local state",
+                        "oid": "3d83ed2ff3515b9f982899d573ab8a656b018c21"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-17T19:38:09Z",
+              "mergedAt": "2019-06-17T20:01:33Z",
+              "mergedBy": {
+                "login": "mjgiarlo"
+              },
+              "number": 750,
+              "state": "MERGED",
+              "title": "Editor does not need to maintain a local state"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-17T20:46:48Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 62,
+                        "author": {
+                          "date": "2019-06-17T14:59:50-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-17T20:07:02Z",
+                        "deletions": 15,
+                        "messageHeadline": "Extract AuthenticationMessage from Editor",
+                        "oid": "93f5b60b365dd403acc149ef582ab5e799d8caed"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-17T20:00:22Z",
+              "mergedAt": "2019-06-17T20:46:48Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 751,
+              "state": "MERGED",
+              "title": "Extract AuthenticationMessage from Editor"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-17T21:31:46Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-06-17T16:05:32-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-17T21:05:32Z",
+                        "deletions": 6,
+                        "messageHeadline": "Remove dead code",
+                        "oid": "e6846533173266f866004a23fc94bcb4d6fffe96"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-17T21:06:27Z",
+              "mergedAt": "2019-06-17T21:31:46Z",
+              "mergedBy": {
+                "login": "jgreben"
+              },
+              "number": 752,
+              "state": "MERGED",
+              "title": "Remove dead code"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-18T15:14:40Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-06-17T18:04:11-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-18T01:04:11Z",
+                        "deletions": 1,
+                        "messageHeadline": "move lookupConfig out of spoofed directory",
+                        "oid": "41bdc1be9745744bfe19a5fb33b0a937dc482584"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-18T01:05:21Z",
+              "mergedAt": "2019-06-18T15:14:39Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 753,
+              "state": "MERGED",
+              "title": "move lookupConfig out of spoofed directory"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-18T16:47:27Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 27,
+                        "author": {
+                          "date": "2019-06-18T08:03:22-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-18T13:34:16Z",
+                        "deletions": 25,
+                        "messageHeadline": "Convert the Editor component to a Function",
+                        "oid": "bd31270757ca46c9b0b58c0a8472f293c670fc6d"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-18T13:03:57Z",
+              "mergedAt": "2019-06-18T16:47:27Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 754,
+              "state": "MERGED",
+              "title": "Convert the Editor component to a Function"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-18T20:38:11Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 140,
+                        "author": {
+                          "date": "2019-06-18T08:59:35-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-18T19:36:39Z",
+                        "deletions": 24,
+                        "messageHeadline": "Allow resources to be updated",
+                        "oid": "3e219d5cab661fd764aa2a4c477d6ed7fd90698f"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-18T16:47:07Z",
+              "mergedAt": "2019-06-18T20:38:10Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 756,
+              "state": "MERGED",
+              "title": "Allow resources to be updated "
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-19T03:17:29Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 41,
+                        "author": {
+                          "date": "2019-06-18T10:45:36-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-18T17:45:36Z",
+                        "deletions": 13,
+                        "messageHeadline": "Expand nested resource test to verify content exists in preview RDF",
+                        "oid": "e01b354574c7e0365280cb4b0370bf1dae5f322b"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 73,
+                        "author": {
+                          "date": "2019-06-18T15:08:17-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-18T22:08:17Z",
+                        "deletions": 19,
+                        "messageHeadline": "WIP",
+                        "oid": "e75d20f01e66a64d095291a27e3d3d3e0c8e44b3"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 20,
+                        "author": {
+                          "date": "2019-06-18T15:18:05-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-18T22:18:05Z",
+                        "deletions": 70,
+                        "messageHeadline": "WIP Rebase'",
+                        "oid": "93b6356a16b2450b6c93b526e6d0c461bb8576b4"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-18T17:47:16Z",
+              "mergedAt": null,
+              "mergedBy": null,
+              "number": 758,
+              "state": "CLOSED",
+              "title": "Expand nested resource test to verify content exists in preview RDF"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-18T22:14:43Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 10,
+                        "author": {
+                          "date": "2019-06-18T12:52:41-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-18T20:41:13Z",
+                        "deletions": 22,
+                        "messageHeadline": "Restore the ability for defaults to be used in a lookup",
+                        "oid": "2ad1397a50a48bece4b8e47ba2b45bb555e63d89"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-18T17:53:11Z",
+              "mergedAt": "2019-06-18T22:14:42Z",
+              "mergedBy": {
+                "login": "jmartin-sul"
+              },
+              "number": 759,
+              "state": "MERGED",
+              "title": "Restore the ability for defaults to be used in a lookup"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-18T19:58:16Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 62,
+                        "author": {
+                          "date": "2019-06-18T13:33:11-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-18T18:40:17Z",
+                        "deletions": 67,
+                        "messageHeadline": "Extract search logic from render logic",
+                        "oid": "f0308bd2046a4c2cc1814c71fddf24736ec0d2b5"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-18T18:34:09Z",
+              "mergedAt": "2019-06-18T19:58:16Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 760,
+              "state": "MERGED",
+              "title": "[Refactor] Extract search logic from render logic"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-18T20:01:16Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 21,
+                        "author": {
+                          "date": "2019-06-18T13:55:49-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-18T18:55:49Z",
+                        "deletions": 0,
+                        "messageHeadline": "In lookup property require the lookupConfig",
+                        "oid": "10af60431e888f3555b245e79a31c6f24716c41f"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-18T18:56:49Z",
+              "mergedAt": "2019-06-18T20:01:16Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 762,
+              "state": "MERGED",
+              "title": "In lookup property require the lookupConfig"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-19T17:28:04Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 3,
+                        "author": {
+                          "date": "2019-06-18T15:35:03-07:00",
+                          "user": {
+                            "login": "jmartin-sul"
+                          }
+                        },
+                        "committedDate": "2019-06-18T22:35:03Z",
+                        "deletions": 3,
+                        "messageHeadline": "when there are no defaults defined for a property template, log a deb\u2026",
+                        "oid": "b5252ff8b5f2be65f5f556eee2b1add16f30fc8d"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-18T22:35:49Z",
+              "mergedAt": null,
+              "mergedBy": null,
+              "number": 767,
+              "state": "CLOSED",
+              "title": "when there are no defaults defined for a property template, log a debug level message to console"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-19T18:06:22Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 51,
+                        "author": {
+                          "date": "2019-06-18T15:37:43-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-19T16:32:56Z",
+                        "deletions": 11,
+                        "messageHeadline": "Pop out latest resource id and set it explicitly as the only resource\u2026",
+                        "oid": "e9246f5a39c0eda09cc4e43ff36e995c251c8b2f"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-06-18T15:38:04-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-19T16:32:56Z",
+                        "deletions": 1,
+                        "messageHeadline": "Remove unused prop",
+                        "oid": "fc1dffa88aa243762c8ce498b23ba055e19f41c2"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-06-19T09:34:24-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-19T16:34:24Z",
+                        "deletions": 2,
+                        "messageHeadline": "use resourceTemplateId as variable name",
+                        "oid": "8f2ec6e1b83b4fee7ab397c09c561440055cb7cc"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-06-19T09:36:02-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-19T16:36:02Z",
+                        "deletions": 2,
+                        "messageHeadline": "fix typo",
+                        "oid": "882259a64f723755782f9182c5f78cc622f9d8e1"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 12,
+                        "author": {
+                          "date": "2019-06-19T09:59:28-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-19T16:59:28Z",
+                        "deletions": 0,
+                        "messageHeadline": "Add documentation for the refreshResourceTemplate reducer function",
+                        "oid": "66b6977b97bb23ef44f7320508796c6a5179ccbd"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-18T22:41:42Z",
+              "mergedAt": "2019-06-19T18:06:22Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 768,
+              "state": "MERGED",
+              "title": "Fixes bug where subsequently selected resource templates are appended to selectorReducer.resource"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-18T23:36:40Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 72,
+                        "author": {
+                          "date": "2019-06-18T16:06:04-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-18T23:06:04Z",
+                        "deletions": 74,
+                        "messageHeadline": "eslint: alphabetize rules",
+                        "oid": "804d06241e5afa4257f600899f38688b9476e653"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-18T23:07:21Z",
+              "mergedAt": "2019-06-18T23:36:40Z",
+              "mergedBy": {
+                "login": "jmartin-sul"
+              },
+              "number": 769,
+              "state": "MERGED",
+              "title": "eslint: alphabetize rules"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-20T18:50:56Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 40,
+                        "author": {
+                          "date": "2019-06-18T16:16:59-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-19T21:25:17Z",
+                        "deletions": 8,
+                        "messageHeadline": "Check for empty string not just undefined in propertyTemplate remark",
+                        "oid": "a2d2e07b86365fff61aa55e97ac2eb389f99ab62"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-06-19T14:51:11-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-19T21:51:11Z",
+                        "deletions": 0,
+                        "messageHeadline": "fix linting error",
+                        "oid": "baeb2bbc940951af0439f5709f2699941ebd656d"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 3,
+                        "author": {
+                          "date": "2019-06-20T09:31:55-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-20T16:31:55Z",
+                        "deletions": 5,
+                        "messageHeadline": "remove abbr tag",
+                        "oid": "37bc42eacb53a7d82c2c7e32c1b2b56e7ff9ee07"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-06-20T11:31:45-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-20T18:31:45Z",
+                        "deletions": 2,
+                        "messageHeadline": "Add keyboard navigation for required tooltip",
+                        "oid": "6075574209ae45ae1f2afa2b95dfd688106ca4e3"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-06-20T11:39:44-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-20T18:39:44Z",
+                        "deletions": 0,
+                        "messageHeadline": "Allow tabIndex on role=tooltip",
+                        "oid": "d259a9da2dd13caab2d333d5f823c9049d035bfe"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-18T23:40:16Z",
+              "mergedAt": "2019-06-20T18:50:55Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 770,
+              "state": "MERGED",
+              "title": "Fix empty tooltip and missing required tooltip"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-19T18:07:35Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 34,
+                        "author": {
+                          "date": "2019-06-18T19:49:30-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-19T02:49:30Z",
+                        "deletions": 22,
+                        "messageHeadline": "Move RDF test setup into helper method for reuse",
+                        "oid": "e97f08ded033a8ab2b47e4ca31991fd2e32cbef7"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 56,
+                        "author": {
+                          "date": "2019-06-18T20:15:50-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-19T03:15:50Z",
+                        "deletions": 19,
+                        "messageHeadline": "Add verifyPreviewRDF test to check that expected content is included",
+                        "oid": "206b6449c4dabc2967c085e87595349c9ebbc48e"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-06-18T20:20:47-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-19T03:20:47Z",
+                        "deletions": 1,
+                        "messageHeadline": "Do not try to test the previewRDFHelper",
+                        "oid": "17cf86099467a319ff37cd949d752503dda4ec0a"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 3,
+                        "author": {
+                          "date": "2019-06-19T08:02:58-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-19T15:02:58Z",
+                        "deletions": 3,
+                        "messageHeadline": "Rename helper method to fillInRequredFieldsForBibframeInstance",
+                        "oid": "7349b59a50022db3a442c7275329647965c3750f"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 3,
+                        "author": {
+                          "date": "2019-06-19T08:26:24-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-19T15:26:24Z",
+                        "deletions": 2,
+                        "messageHeadline": "Add comment to issue related to export default async",
+                        "oid": "92e0d21efa113eebe798596007258845b6d94527"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-06-19T08:47:31-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-19T15:47:31Z",
+                        "deletions": 2,
+                        "messageHeadline": "Fix comment",
+                        "oid": "207e9d2cfa564ea949cac9d4e9bf766508ca142e"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-19T03:23:27Z",
+              "mergedAt": "2019-06-19T18:07:35Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 771,
+              "state": "MERGED",
+              "title": "Add test to verify content exists in preview RDF"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-19T16:12:57Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 16,
+                        "author": {
+                          "date": "2019-06-19T10:05:43-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-19T15:13:09Z",
+                        "deletions": 13,
+                        "messageHeadline": "Switch to using iso639-1 language codes",
+                        "oid": "3dad346c113ee87782085b0dc2ac871479f4f207"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 25,
+                        "author": {
+                          "date": "2019-06-19T10:35:28-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-19T16:06:29Z",
+                        "deletions": 14,
+                        "messageHeadline": "Write out language tags to rdf",
+                        "oid": "bc195a8b36c60c6f3d7199b77a85d3f8b577ae59"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-19T15:13:28Z",
+              "mergedAt": "2019-06-19T16:12:57Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 773,
+              "state": "MERGED",
+              "title": "Export language tags to RDF"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-19T17:32:15Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-06-18T15:35:03-07:00",
+                          "user": {
+                            "login": "jmartin-sul"
+                          }
+                        },
+                        "committedDate": "2019-06-19T17:25:34Z",
+                        "deletions": 44,
+                        "messageHeadline": "don't bother logging to console when there are no defaults defined fo\u2026",
+                        "oid": "59ecb529a20ad06cd7515c0cc278aa492cbdaef5"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-19T17:27:18Z",
+              "mergedAt": "2019-06-19T17:32:15Z",
+              "mergedBy": {
+                "login": "jmartin-sul"
+              },
+              "number": 774,
+              "state": "MERGED",
+              "title": "don't bother logging to console when there are no defaults defined for a property template"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-19T20:12:08Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 132,
+                        "author": {
+                          "date": "2019-06-19T12:28:07-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-19T18:10:59Z",
+                        "deletions": 135,
+                        "messageHeadline": "Separate selectors from reducers",
+                        "oid": "c2366b5cec6be852bf876ca8bf80226e22cb8288"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-19T17:28:31Z",
+              "mergedAt": "2019-06-19T20:12:08Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 775,
+              "state": "MERGED",
+              "title": "Separate selectors from reducers"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-19T19:09:59Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 21,
+                        "author": {
+                          "date": "2019-06-19T10:12:26-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-19T17:30:57Z",
+                        "deletions": 1,
+                        "messageHeadline": "Document the setItemsOrSelections reducer function",
+                        "oid": "88ff3e92a9243e568d82fd5f730289f4ef722922"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-06-19T11:19:48-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-19T18:19:48Z",
+                        "deletions": 1,
+                        "messageHeadline": "tweak function comment",
+                        "oid": "35bab60e5f5c48315926eb88a1f397a058119581"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-19T17:33:48Z",
+              "mergedAt": "2019-06-19T19:09:58Z",
+              "mergedBy": {
+                "login": "mjgiarlo"
+              },
+              "number": 776,
+              "state": "MERGED",
+              "title": "Document the setItemsOrSelections reducer function"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-19T17:36:46Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-06-14T10:44:23-07:00",
+                          "user": {
+                            "login": "jmartin-sul"
+                          }
+                        },
+                        "committedDate": "2019-06-19T17:33:01Z",
+                        "deletions": 1,
+                        "messageHeadline": "fix typo",
+                        "oid": "69feadcb26a16072b15b665e511e15725c58b17c"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-19T17:34:49Z",
+              "mergedAt": "2019-06-19T17:36:46Z",
+              "mergedBy": {
+                "login": "jgreben"
+              },
+              "number": 777,
+              "state": "MERGED",
+              "title": "fix typo"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-19T18:53:37Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 19,
+                        "author": {
+                          "date": "2019-06-19T11:35:58-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-19T18:35:58Z",
+                        "deletions": 31,
+                        "messageHeadline": "Setup dotenv in order to read command line config options from the .e\u2026",
+                        "oid": "d46d91aeb921c6e495ee0ad289a4cf05a1385788"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 5,
+                        "author": {
+                          "date": "2019-06-19T11:44:15-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-19T18:44:15Z",
+                        "deletions": 3,
+                        "messageHeadline": "Update README to reflect short test command line",
+                        "oid": "f98ae9a6461caba5348599ecc47a4b151c30ee09"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-19T18:45:47Z",
+              "mergedAt": "2019-06-19T18:53:37Z",
+              "mergedBy": {
+                "login": "jmartin-sul"
+              },
+              "number": 778,
+              "state": "MERGED",
+              "title": "Setup dotenv in order to read command line config options from the\u2026"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-19T19:04:43Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-06-19T13:46:13-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-19T18:50:20Z",
+                        "deletions": 11,
+                        "messageHeadline": "Remove unnecessary prop from tests",
+                        "oid": "99cc6c54bca47e0b37810020a6858b7442903e83"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-19T18:48:21Z",
+              "mergedAt": "2019-06-19T19:04:43Z",
+              "mergedBy": {
+                "login": "mjgiarlo"
+              },
+              "number": 779,
+              "state": "MERGED",
+              "title": "Remove unnecessary prop from tests"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-19T20:26:35Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-06-19T13:08:16-07:00",
+                          "user": {
+                            "login": "jmartin-sul"
+                          }
+                        },
+                        "committedDate": "2019-06-19T20:12:36Z",
+                        "deletions": 0,
+                        "messageHeadline": "add copyright statement to top of file",
+                        "oid": "4aa360d1eda8aed5131dff3a1a2f5474cc6580e5"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-19T20:09:33Z",
+              "mergedAt": "2019-06-19T20:26:35Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 780,
+              "state": "MERGED",
+              "title": "Copyright statement for resourceSelectors.js"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-20T14:42:34Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-06-19T15:39:53-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-19T22:39:53Z",
+                        "deletions": 0,
+                        "messageHeadline": "Close the previewRDF modal if validations fail",
+                        "oid": "a739867ce2203f69baa5c931d15ca293912ec889"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-19T22:41:46Z",
+              "mergedAt": "2019-06-20T14:42:34Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 782,
+              "state": "MERGED",
+              "title": "Close the previewRDF modal if validations fail"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-19T23:15:11Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 16,
+                        "author": {
+                          "date": "2019-06-19T15:57:48-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-19T22:57:48Z",
+                        "deletions": 1,
+                        "messageHeadline": "display a message if a property component is misconfigures as a resource",
+                        "oid": "8d3dffd4ef126cd8e737c746c84a375085dd84c4"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-06-19T16:00:39-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-19T23:00:39Z",
+                        "deletions": 7,
+                        "messageHeadline": "display a message if a property component is misconfigures as a resource",
+                        "oid": "ce238107e09eec7ad2286b8c2c4601fd321d4856"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 9,
+                        "author": {
+                          "date": "2019-06-19T16:04:43-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-19T23:04:43Z",
+                        "deletions": 12,
+                        "messageHeadline": "display a message if a property component is misconfigures as a resource",
+                        "oid": "5d6540c4223c40234e8975be0b0fa2e2a6904858"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-19T23:07:49Z",
+              "mergedAt": null,
+              "mergedBy": null,
+              "number": 783,
+              "state": "CLOSED",
+              "title": "Display a message if a property component is misconfigured as a resource"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-20T16:54:46Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 23,
+                        "author": {
+                          "date": "2019-06-19T16:50:44-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-19T23:50:44Z",
+                        "deletions": 3,
+                        "messageHeadline": "display a message if a property component is misconfigures as a resource",
+                        "oid": "210a60fc41b77fbc7e3eff1a23ffd51c9dd2a2d1"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 5,
+                        "author": {
+                          "date": "2019-06-19T19:43:21-07:00",
+                          "user": {
+                            "login": "jgreben"
+                          }
+                        },
+                        "committedDate": "2019-06-20T02:43:21Z",
+                        "deletions": 2,
+                        "messageHeadline": "Use font-awesome icon in alert box",
+                        "oid": "ef985a3398e8da843244b787d34c4da8ad189518"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-19T23:56:31Z",
+              "mergedAt": null,
+              "mergedBy": null,
+              "number": 784,
+              "state": "CLOSED",
+              "title": "Display a message if a property component is misconfigured as a resource"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-21T16:56:29Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 31,
+                        "author": {
+                          "date": "2019-06-19T13:22:34-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-21T16:24:41Z",
+                        "deletions": 30,
+                        "messageHeadline": "move sinopiaServerSpoof  to __tests__/fixtureLoaderHelper and move te\u2026",
+                        "oid": "9c2187efbe71f263f814f0442954dee0f0af10ce"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 12,
+                        "author": {
+                          "date": "2019-06-19T13:27:42-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-21T16:24:41Z",
+                        "deletions": 12,
+                        "messageHeadline": "Config.useResourceTemplateFixtures() was Config.spoofSinopiaServer()",
+                        "oid": "7d46ee87d5cd51f122fff818f8235b8525cb66ef"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-06-19T13:30:38-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-21T16:24:41Z",
+                        "deletions": 2,
+                        "messageHeadline": ".rtFixturesGroups() replaces .spoofedGetGroups()",
+                        "oid": "2af1f2d71c2b5796141ba9960903f5e434af44bd"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 9,
+                        "author": {
+                          "date": "2019-06-19T13:34:20-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-21T16:24:41Z",
+                        "deletions": 9,
+                        "messageHeadline": ".getFixtureResourceTemplate() replaces .spoofedGetResourceTemplate()",
+                        "oid": "a8455928147e7af1f4291915def0bbfa24964752"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-06-19T13:37:45-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-21T16:24:41Z",
+                        "deletions": 2,
+                        "messageHeadline": ".spoofedListResourcesInGroupContainer() renamed .listFixtureResources\u2026",
+                        "oid": "11ace1d211a5920f34f15e991b14c2561a891526"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 16,
+                        "author": {
+                          "date": "2019-06-19T15:29:31-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-21T16:24:41Z",
+                        "deletions": 16,
+                        "messageHeadline": "prefer \"fixture\" over \"spoof \"for resource template fixture related n\u2026",
+                        "oid": "9ac399dcc5cb530cf1c35fb8d218b9f202209a22"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 12,
+                        "author": {
+                          "date": "2019-06-19T16:18:13-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-21T16:25:29Z",
+                        "deletions": 12,
+                        "messageHeadline": "USE_FIXTURES replaces SPOOF_SINOPIA_SERVER",
+                        "oid": "9485a09f8a84e642100e9929e51383d1069e6f3f"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-06-21T09:30:13-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-21T16:30:13Z",
+                        "deletions": 4,
+                        "messageHeadline": "fixes after rebase",
+                        "oid": "35ee71d0a643e285714d52e2bdba98ef6882575c"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-06-21T09:42:27-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-21T16:42:27Z",
+                        "deletions": 1,
+                        "messageHeadline": "Config.test test description un-goofed",
+                        "oid": "41d347e2f54797f21e9647ee3cf417330163192e"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-06-21T09:43:43-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-06-21T16:43:43Z",
+                        "deletions": 1,
+                        "messageHeadline": "docker build now needs __tests__ files for fixtures and fixture loading",
+                        "oid": "89d94ab3f021ddb7fa7b466436474967c6423111"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-20T02:08:23Z",
+              "mergedAt": "2019-06-21T16:56:29Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 786,
+              "state": "MERGED",
+              "title": "Fixtures not spoof"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-20T14:17:44Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 12,
+                        "author": {
+                          "date": "2019-06-20T07:58:02-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-20T13:49:02Z",
+                        "deletions": 14,
+                        "messageHeadline": "refreshResourceTemplate fix for when no resource is selected",
+                        "oid": "bf052a9c2a357ab67f2f89cbfb1158446f3b0f39"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-20T12:58:25Z",
+              "mergedAt": "2019-06-20T14:17:44Z",
+              "mergedBy": {
+                "login": "jmartin-sul"
+              },
+              "number": 788,
+              "state": "MERGED",
+              "title": "refreshResourceTemplate fix for when no resource is selected"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-20T22:52:49Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 484,
+                        "author": {
+                          "date": "2019-06-20T07:29:15-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-20T18:48:26Z",
+                        "deletions": 7,
+                        "messageHeadline": "Add a uri component for entering in resources directly",
+                        "oid": "f75c1fd9746365f4dead8fe3f9bd3046d0609187"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-20T14:39:24Z",
+              "mergedAt": "2019-06-20T22:52:49Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 789,
+              "state": "MERGED",
+              "title": "Add a uri component for entering in resources directly"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-20T15:53:20Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 30,
+                        "author": {
+                          "date": "2019-06-20T10:48:52-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-20T15:48:52Z",
+                        "deletions": 11,
+                        "messageHeadline": "Update the package-lock.json",
+                        "oid": "58384a6904d90268fad0c5aea14b00e1366b7a01"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-20T15:49:35Z",
+              "mergedAt": "2019-06-20T15:53:20Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 790,
+              "state": "MERGED",
+              "title": "Update the package-lock.json"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-20T16:42:37Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 14,
+                        "author": {
+                          "date": "2019-06-20T11:09:03-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-20T16:11:41Z",
+                        "deletions": 40,
+                        "messageHeadline": "Test for structure not for equality",
+                        "oid": "85876c26b63dfec7a612583bb78ab51ec3a9ef2b"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-20T16:09:40Z",
+              "mergedAt": "2019-06-20T16:42:37Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 791,
+              "state": "MERGED",
+              "title": "Test for structure not for equality"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-20T17:46:20Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 8,
+                        "author": {
+                          "date": "2019-06-20T11:33:09-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-20T16:33:09Z",
+                        "deletions": 17,
+                        "messageHeadline": "Simplify removing an item.",
+                        "oid": "9d5a87532aa8fe0fd10900efdc902ad7466aa492"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-20T16:33:25Z",
+              "mergedAt": "2019-06-20T17:46:20Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 792,
+              "state": "MERGED",
+              "title": "Simplify removing an item."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-20T18:10:28Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1543,
+                        "author": {
+                          "date": "2019-06-20T10:41:34-07:00",
+                          "user": {
+                            "login": "mjgiarlo"
+                          }
+                        },
+                        "committedDate": "2019-06-20T18:01:47Z",
+                        "deletions": 871,
+                        "messageHeadline": "Use webpack to build both dev and prod servers",
+                        "oid": "5e23be582a636261f16d48cf3bcfd3c3fe54950d"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-20T17:45:22Z",
+              "mergedAt": "2019-06-20T18:10:28Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 793,
+              "state": "MERGED",
+              "title": "Use webpack to build both dev and prod servers"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-20T18:32:07Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 43,
+                        "author": {
+                          "date": "2019-06-20T08:45:28-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-20T15:45:28Z",
+                        "deletions": 0,
+                        "messageHeadline": "Adds a valid unhappy path test for the validation alert",
+                        "oid": "08e2d36a84a6902957263b96f8b0f2283957b2d7"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 21,
+                        "author": {
+                          "date": "2019-06-20T10:50:17-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-20T17:50:17Z",
+                        "deletions": 0,
+                        "messageHeadline": "Clear validation errors when a template is loaded",
+                        "oid": "82ec81e97f4852ab248afad5be36565d2e403778"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 7,
+                        "author": {
+                          "date": "2019-06-20T11:02:17-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-20T18:02:17Z",
+                        "deletions": 1,
+                        "messageHeadline": "Add an integration test to verify that the alert is no longer displayed",
+                        "oid": "0ffb9ee08729102983d2101f770d167a4c161d5b"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-06-20T11:08:16-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-20T18:08:16Z",
+                        "deletions": 1,
+                        "messageHeadline": "Remove unnecessary state change",
+                        "oid": "a8fe3c6fb82895eeb632a0a27251d50e5071232b"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-06-20T11:26:21-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-06-20T18:26:21Z",
+                        "deletions": 10,
+                        "messageHeadline": "Remove unnecessary steps in incomplete data test helper",
+                        "oid": "17242bce534fac52b2da97bbcff033b794de812a"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-20T18:05:19Z",
+              "mergedAt": "2019-06-20T18:32:06Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 795,
+              "state": "MERGED",
+              "title": "Clear validation errors when a resource template is loaded"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-06-20T18:48:07Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-06-20T13:44:47-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-06-20T18:44:47Z",
+                        "deletions": 1,
+                        "messageHeadline": "Remove unused property from test",
+                        "oid": "c90dc731a3b570d4ac7d0d1f2a46a3206baaf569"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-06-20T18:45:02Z",
+              "mergedAt": "2019-06-20T18:48:07Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 796,
+              "state": "MERGED",
+              "title": "Remove unused property from test"
+            }
+          }
+        ],
+        "pageInfo": {
+          "endCursor": "Y3Vyc29yOnYyOpHOEU4aBw==",
+          "hasNextPage": true,
+          "startCursor": "Y3Vyc29yOnYyOpHOEQpBdg=="
+        }
+      }
+    }
+  }
+}

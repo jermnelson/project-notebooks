@@ -1,0 +1,4011 @@
+{
+  "data": {
+    "repository": {
+      "pullRequests": {
+        "edges": [
+          {
+            "node": {
+              "closedAt": "2019-07-16T18:47:49Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-07-16T11:36:37-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-16T18:36:37Z",
+                        "deletions": 1,
+                        "messageHeadline": "user body-parser.json over express.json",
+                        "oid": "050d1c33137ebf1d52216c228929f64ea53dcf42"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-16T18:38:13Z",
+              "mergedAt": "2019-07-16T18:47:49Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 967,
+              "state": "MERGED",
+              "title": "Use body-parser.json over express.json"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-16T19:49:08Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 10,
+                        "author": {
+                          "date": "2019-07-16T14:15:47-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-16T19:29:42Z",
+                        "deletions": 1,
+                        "messageHeadline": "Pass parameters to ElasticSearch",
+                        "oid": "34a70e01e1b58b6206cfbedfb740db57b2bdd3f0"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-16T19:16:29Z",
+              "mergedAt": "2019-07-16T19:49:07Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 969,
+              "state": "MERGED",
+              "title": "Pass parameters to ElasticSearch"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-16T20:55:50Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 15,
+                        "author": {
+                          "date": "2019-07-16T14:27:49-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-16T19:34:27Z",
+                        "deletions": 8,
+                        "messageHeadline": "Fix bad tests",
+                        "oid": "f6088924b1467ff999741c3a8d731434fbe1255e"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-16T19:28:09Z",
+              "mergedAt": "2019-07-16T20:55:50Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 970,
+              "state": "MERGED",
+              "title": "Fix bad tests"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-17T14:57:16Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-07-16T15:19:23-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-17T14:48:27Z",
+                        "deletions": 13,
+                        "messageHeadline": "Remove dead code: retrieveFinished()",
+                        "oid": "a525cae6cd8006ddccb08966ecdcc445ab527422"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-16T20:19:41Z",
+              "mergedAt": "2019-07-17T14:57:16Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 972,
+              "state": "MERGED",
+              "title": "Remove dead code: retrieveFinished()"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-16T21:48:03Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-07-16T14:51:48-06:00",
+                          "user": {
+                            "login": "jermnelson"
+                          }
+                        },
+                        "committedDate": "2019-07-16T21:11:37Z",
+                        "deletions": 2,
+                        "messageHeadline": "Patch version 0.3.4",
+                        "oid": "6f803c1448489fbe5ebab6dc38891f4f374b8ad2"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-16T21:13:13Z",
+              "mergedAt": "2019-07-16T21:48:03Z",
+              "mergedBy": {
+                "login": "jmartin-sul"
+              },
+              "number": 974,
+              "state": "MERGED",
+              "title": "Patch version 0.3.4"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-17T17:16:04Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 243,
+                        "author": {
+                          "date": "2019-07-17T06:31:41-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-17T16:24:16Z",
+                        "deletions": 493,
+                        "messageHeadline": "Moves resource template summaries to redux state and loading to a thunk.",
+                        "oid": "293fa1603de569e37a2772a750b81997e7cc23b6"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-17T10:32:25Z",
+              "mergedAt": "2019-07-17T17:16:04Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 975,
+              "state": "MERGED",
+              "title": "Moves resource template summaries to redux state and loading to a thunk."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T19:44:40Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 25,
+                        "author": {
+                          "date": "2019-07-11T14:41:08-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T16:04:02Z",
+                        "deletions": 15,
+                        "messageHeadline": "Setup search field per #583",
+                        "oid": "fa95eda912556f36497e47953c0306442fec3df8"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-07-11T15:20:09-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T16:04:02Z",
+                        "deletions": 2,
+                        "messageHeadline": "Remove unused bits",
+                        "oid": "36058be52015e92cfda75f6c6fa9ab9ab22c4ba8"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 45,
+                        "author": {
+                          "date": "2019-07-15T14:35:41-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T16:04:02Z",
+                        "deletions": 22,
+                        "messageHeadline": "Add actions for search started and finished",
+                        "oid": "5d79508818032fde77b27a276293f0c858c25228"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 40,
+                        "author": {
+                          "date": "2019-07-15T14:37:44-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T16:04:02Z",
+                        "deletions": 14,
+                        "messageHeadline": "Add initial search results page and handle input on form",
+                        "oid": "bcb83a9df6bfa929ac35c76288df2b545bc5fac0"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 184,
+                        "author": {
+                          "date": "2019-07-15T14:46:11-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T16:44:05Z",
+                        "deletions": 2,
+                        "messageHeadline": "Dispatch SEARCH_STARTED",
+                        "oid": "78d07f5cd3b5de0f0c31855ff6fa027177fce160"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 28,
+                        "author": {
+                          "date": "2019-07-16T13:02:15-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T16:44:07Z",
+                        "deletions": 15,
+                        "messageHeadline": "Send query to elasticsearch",
+                        "oid": "d42cb2149a111733f904a67ccfa661334af56490"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 60,
+                        "author": {
+                          "date": "2019-07-16T15:19:41-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T16:44:07Z",
+                        "deletions": 61,
+                        "messageHeadline": "Add search results to the redux state",
+                        "oid": "9c6ab43bab7975f4545a3d6d3873ee34bbc22f54"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 16,
+                        "author": {
+                          "date": "2019-07-17T09:53:32-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T16:44:07Z",
+                        "deletions": 1,
+                        "messageHeadline": "Refactor searchResults into individual actionCreator",
+                        "oid": "9f083cb7550313c9704265466aad034564f62486"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 55,
+                        "author": {
+                          "date": "2019-07-17T09:54:38-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T16:44:07Z",
+                        "deletions": 152,
+                        "messageHeadline": "Rebase removing actionCreators",
+                        "oid": "98f58972a44f5f984b88cf9b66719b223762bc43"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 96,
+                        "author": {
+                          "date": "2019-07-17T11:40:07-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T16:44:08Z",
+                        "deletions": 77,
+                        "messageHeadline": "Display search results on the page",
+                        "oid": "9b1d367cc3ae1292da9420b782ad9bcae00da971"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 100,
+                        "author": {
+                          "date": "2019-07-17T19:21:32-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T16:44:08Z",
+                        "deletions": 32,
+                        "messageHeadline": "Move search code into search tab",
+                        "oid": "dab355b33a2f421e4736913534d711a2fc557f99"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 85,
+                        "author": {
+                          "date": "2019-07-18T08:58:19-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T16:44:10Z",
+                        "deletions": 158,
+                        "messageHeadline": "Simplify search to avoid unnecessary actions",
+                        "oid": "8e437e227d41d8ce66378a5478f15943d88bca0d"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 143,
+                        "author": {
+                          "date": "2019-07-18T11:34:45-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T18:34:45Z",
+                        "deletions": 52,
+                        "messageHeadline": "Load resource when clicked",
+                        "oid": "e131dc1c60fe579995bcd8203b84251e0bc3fec9"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-07-18T11:36:10-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T18:36:10Z",
+                        "deletions": 1,
+                        "messageHeadline": "Remove crufty comment",
+                        "oid": "570ad03a0637d943110eb9e7baef3a25f320f71f"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-07-18T11:37:11-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T18:37:11Z",
+                        "deletions": 42,
+                        "messageHeadline": "Remove unwritten test",
+                        "oid": "1e9d38cdae61516752c44ff26e9bb188f81617ad"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-07-18T11:47:53-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T18:47:53Z",
+                        "deletions": 1,
+                        "messageHeadline": "Add subtitle to search query",
+                        "oid": "8a9836cab1cd4749bd54496972a274faf882c991"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 10,
+                        "author": {
+                          "date": "2019-07-18T12:15:39-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T19:15:39Z",
+                        "deletions": 97,
+                        "messageHeadline": "Remove legacy Browse tab and associated code",
+                        "oid": "2b9ccf5ceb2f2136dd8b671e201bfbbdf7e2c782"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-07-18T12:36:20-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T19:36:20Z",
+                        "deletions": 2,
+                        "messageHeadline": "Set warnings to 5",
+                        "oid": "b57a1d88706546716dfa4a07582322b76ac0aedf"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-17T15:24:22Z",
+              "mergedAt": "2019-07-18T19:44:40Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 976,
+              "state": "MERGED",
+              "title": "Add search tab to editor"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-17T16:25:45Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 17,
+                        "author": {
+                          "date": "2019-07-17T10:56:17-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-17T16:10:38Z",
+                        "deletions": 21,
+                        "messageHeadline": "Redirect to the editor after loading a resource",
+                        "oid": "e5217f2be7e04f9747af16491a06fe377a4d1630"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-17T15:56:34Z",
+              "mergedAt": "2019-07-17T16:25:44Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 977,
+              "state": "MERGED",
+              "title": "Redirect to the editor after loading a resource"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-17T18:05:51Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 7,
+                        "author": {
+                          "date": "2019-07-17T12:50:23-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-17T17:15:29Z",
+                        "deletions": 6,
+                        "messageHeadline": "Sets correct container when saving rdf.",
+                        "oid": "1f621c4ac7657dfa7edb4a8288b1ca126d7aeca1"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-17T16:50:53Z",
+              "mergedAt": "2019-07-17T18:05:51Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 978,
+              "state": "MERGED",
+              "title": "Sets correct container when saving rdf."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-17T17:12:47Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 37,
+                        "author": {
+                          "date": "2019-07-17T11:56:17-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-17T16:56:17Z",
+                        "deletions": 15,
+                        "messageHeadline": "Convert stubResource to a thunk",
+                        "oid": "dbfed6c0527b5670f7cdcb43ba5df10227df0a43"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-17T16:56:49Z",
+              "mergedAt": "2019-07-17T17:12:47Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 980,
+              "state": "MERGED",
+              "title": "Convert stubResource to a thunk"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T02:53:04Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 22,
+                        "author": {
+                          "date": "2019-07-17T14:09:46-06:00",
+                          "user": {
+                            "login": "jermnelson"
+                          }
+                        },
+                        "committedDate": "2019-07-17T20:09:46Z",
+                        "deletions": 0,
+                        "messageHeadline": "Update issue templates",
+                        "oid": "709938bb9362971c32c546a6cb5bd01beea4ee12"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-07-17T14:13:29-06:00",
+                          "user": {
+                            "login": "jermnelson"
+                          }
+                        },
+                        "committedDate": "2019-07-17T20:13:29Z",
+                        "deletions": 1,
+                        "messageHeadline": "Updated README to match issue template",
+                        "oid": "27d7c7145a1123eee8f0c99898ebf39f9a5d9c7a"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-07-17T15:06:37-06:00",
+                          "user": {
+                            "login": "jermnelson"
+                          }
+                        },
+                        "committedDate": "2019-07-17T21:06:37Z",
+                        "deletions": 0,
+                        "messageHeadline": "Update tagged-release.md",
+                        "oid": "d029d71901b090a91eec5272afa4c772c6f86de5"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-17T20:09:47Z",
+              "mergedAt": "2019-07-18T02:53:04Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 982,
+              "state": "MERGED",
+              "title": "Adds Tagged Release Checklist Github Issue Template"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T15:23:45Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 34,
+                        "author": {
+                          "date": "2019-07-17T15:27:17-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-18T14:27:27Z",
+                        "deletions": 5,
+                        "messageHeadline": "Loading an existing resource sets the resource URI",
+                        "oid": "50e15cc3c26f7dbbd807d8f9a02f1b3a2bd48cc0"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-17T20:28:53Z",
+              "mergedAt": "2019-07-18T15:23:45Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 984,
+              "state": "MERGED",
+              "title": "Loading an existing resource sets the resource URI"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T02:38:28Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-07-17T14:21:43-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-17T21:21:43Z",
+                        "deletions": 0,
+                        "messageHeadline": "Add tls and net to the webpack node config so that request can be used",
+                        "oid": "c88b1029dd09a69c5e3c048ebb31e14d2c63e9ce"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-17T21:22:25Z",
+              "mergedAt": null,
+              "mergedBy": null,
+              "number": 985,
+              "state": "CLOSED",
+              "title": "Add tls and net to the webpack node config so that request can be used"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T18:43:50Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 31,
+                        "author": {
+                          "date": "2019-07-17T16:24:44-07:00",
+                          "user": {
+                            "login": "peetucket"
+                          }
+                        },
+                        "committedDate": "2019-07-17T23:33:35Z",
+                        "deletions": 3,
+                        "messageHeadline": "allow user to enter a literal",
+                        "oid": "bd1a07014979059f6ba6b89fda3228cb426b37d0"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-17T23:25:17Z",
+              "mergedAt": null,
+              "mergedBy": null,
+              "number": 986,
+              "state": "CLOSED",
+              "title": "allow a user to enter a literal on InputQA"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T15:22:51Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 15,
+                        "author": {
+                          "date": "2019-07-17T18:31:57-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-18T00:49:23Z",
+                        "deletions": 1,
+                        "messageHeadline": "Clear errors when loading a resource template",
+                        "oid": "b7be11a45814e5f13b0eaefa33af22663d084af0"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-17T23:32:47Z",
+              "mergedAt": "2019-07-18T15:22:51Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 987,
+              "state": "MERGED",
+              "title": "Clear errors when loading a resource template"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T12:22:19Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 3,
+                        "author": {
+                          "date": "2019-07-17T20:01:06-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-18T03:12:51Z",
+                        "deletions": 3,
+                        "messageHeadline": "Upgrade to node 12.6",
+                        "oid": "9ea652752bd397f3ef0ea1edda8d3d51b6f3a201"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-18T01:01:48Z",
+              "mergedAt": "2019-07-18T12:22:19Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 988,
+              "state": "MERGED",
+              "title": "Upgrade to node 12.6"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T04:41:04Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-07-17T22:07:15-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-18T04:31:20Z",
+                        "deletions": 2,
+                        "messageHeadline": "Use the URL from the stdlib",
+                        "oid": "4bb7662c94eea696fdc59ffe067c7d9e42002e3e"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-18T03:07:35Z",
+              "mergedAt": "2019-07-18T04:41:04Z",
+              "mergedBy": {
+                "login": "aaron-collier"
+              },
+              "number": 989,
+              "state": "MERGED",
+              "title": "Use the URL from the stdlib"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T11:52:36Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-07-17T22:10:26-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-18T03:38:59Z",
+                        "deletions": 0,
+                        "messageHeadline": "Add a repository to the package.json",
+                        "oid": "6a4744ccb15387d31080a75e6fb0799979af9ec3"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-18T03:10:56Z",
+              "mergedAt": "2019-07-18T11:52:36Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 990,
+              "state": "MERGED",
+              "title": "Add a repository to the package.json"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T11:52:12Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-07-17T22:25:59-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-18T03:25:59Z",
+                        "deletions": 581,
+                        "messageHeadline": "Remove static analysis tool",
+                        "oid": "6d61fa7b8c5c298a2fabc8f6b8e54d6befc6cde3"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-18T03:26:40Z",
+              "mergedAt": "2019-07-18T11:52:12Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 992,
+              "state": "MERGED",
+              "title": "Remove static analysis tool"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T14:44:37Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 83,
+                        "author": {
+                          "date": "2019-07-18T07:57:12-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-18T12:15:30Z",
+                        "deletions": 6,
+                        "messageHeadline": "Fixes loading of existing resources.",
+                        "oid": "a457bb8bfe375a0fff928413b3038c6047fd5749"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-18T12:15:58Z",
+              "mergedAt": "2019-07-18T14:44:36Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 994,
+              "state": "MERGED",
+              "title": "Fixes loading of existing resources to use correct resource template."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-22T19:59:50Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 18,
+                        "author": {
+                          "date": "2019-07-18T09:05:08-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-18T21:14:01Z",
+                        "deletions": 1,
+                        "messageHeadline": "Adds option for new uri to InputLookupQA.",
+                        "oid": "4dd1f4d41192c0bf51fc989e49bdc0b7b8944e8b"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 11,
+                        "author": {
+                          "date": "2019-07-18T12:11:51-07:00",
+                          "user": {
+                            "login": "peetucket"
+                          }
+                        },
+                        "committedDate": "2019-07-18T21:14:01Z",
+                        "deletions": 7,
+                        "messageHeadline": "use sensible values in InputLookupQA test",
+                        "oid": "5a46d3b67aeba309527dc9bcc5951d08a1dd0b20"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 35,
+                        "author": {
+                          "date": "2019-07-18T16:26:35-07:00",
+                          "user": {
+                            "login": "peetucket"
+                          }
+                        },
+                        "committedDate": "2019-07-18T23:28:16Z",
+                        "deletions": 0,
+                        "messageHeadline": "add tests for custom URI menu rendering",
+                        "oid": "095e7db119317dba541665336eecf3780f9462a6"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 50,
+                        "author": {
+                          "date": "2019-07-19T12:54:43-07:00",
+                          "user": {
+                            "login": "peetucket"
+                          }
+                        },
+                        "committedDate": "2019-07-19T19:54:43Z",
+                        "deletions": 31,
+                        "messageHeadline": "require valid URIs to be entered in InputLookupQA; add tests for this",
+                        "oid": "875716c8601a200921ab5723e7cb71fd83087419"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-18T13:05:42Z",
+              "mergedAt": "2019-07-22T19:59:50Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 995,
+              "state": "MERGED",
+              "title": "Adds option for new uri to InputLookupQA."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T14:52:37Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 3,
+                        "author": {
+                          "date": "2019-07-18T09:25:52-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-18T14:32:41Z",
+                        "deletions": 66,
+                        "messageHeadline": "Remove unused code \"removeAllContent\"",
+                        "oid": "d05b489a3b96274743aa95d67159a37257b59628"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-18T14:26:07Z",
+              "mergedAt": "2019-07-18T14:52:37Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 996,
+              "state": "MERGED",
+              "title": "Remove unused code"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T15:44:58Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 16,
+                        "author": {
+                          "date": "2019-07-18T09:39:51-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-18T15:38:54Z",
+                        "deletions": 18,
+                        "messageHeadline": "Remove unnecessary properties",
+                        "oid": "01ffc308bcdbe860bfb9b0c2af313ef9b16763cd"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-18T14:41:09Z",
+              "mergedAt": "2019-07-18T15:44:58Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 997,
+              "state": "MERGED",
+              "title": "Remove unnecessary properties"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T15:27:29Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-07-18T10:17:23-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-18T15:17:23Z",
+                        "deletions": 2,
+                        "messageHeadline": "mapStateToProps does not need to return reduxPath, it's a passed in prop",
+                        "oid": "75a2abc52f03a2b9b576b200cb15d7063c887357"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-18T15:17:48Z",
+              "mergedAt": "2019-07-18T15:27:29Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 998,
+              "state": "MERGED",
+              "title": "mapStateToProps does not need to return reduxPath, it's a passed in prop"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T15:49:52Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 26,
+                        "author": {
+                          "date": "2019-07-18T10:27:07-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-18T15:27:07Z",
+                        "deletions": 26,
+                        "messageHeadline": "Rename actions to better describe the action the user took",
+                        "oid": "617f1d0e1b364eea9aad8c2ba2f1d2e45f538172"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-18T15:27:26Z",
+              "mergedAt": "2019-07-18T15:49:52Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 999,
+              "state": "MERGED",
+              "title": "Rename actions to better describe the action the user took"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T19:16:02Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-07-18T10:33:24-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-18T15:33:24Z",
+                        "deletions": 8,
+                        "messageHeadline": "Passing uri to setItems is unnecessary",
+                        "oid": "4b66eae801a98f750beb86b105455a4f1d41f6c4"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-18T15:34:24Z",
+              "mergedAt": "2019-07-18T19:16:02Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 1000,
+              "state": "MERGED",
+              "title": "Passing uri to setItems is unnecessary"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T19:27:04Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 7,
+                        "author": {
+                          "date": "2019-07-18T11:19:37-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-18T16:19:37Z",
+                        "deletions": 5,
+                        "messageHeadline": "Provide a sensible default for Config.searchHost",
+                        "oid": "806c8d65563f32b38e298758e7e147301397a921"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-18T16:20:13Z",
+              "mergedAt": "2019-07-18T19:27:04Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 1002,
+              "state": "MERGED",
+              "title": "Provide a sensible default for Config.searchHost"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-19T16:57:46Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 159,
+                        "author": {
+                          "date": "2019-07-18T13:40:55-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-19T11:59:22Z",
+                        "deletions": 118,
+                        "messageHeadline": "Extract LanguageButton from InputLiteral",
+                        "oid": "34041811411f3996f9e5eda6e1ecc72c060a6380"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 27,
+                        "author": {
+                          "date": "2019-07-18T15:09:14-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-19T12:48:41Z",
+                        "deletions": 16,
+                        "messageHeadline": "Use redux",
+                        "oid": "082aea600e95f1bc24350dd55ef199524ee9fc9e"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-18T18:41:10Z",
+              "mergedAt": "2019-07-19T16:57:46Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 1003,
+              "state": "MERGED",
+              "title": "Extract LanguageButton from InputLiteral"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T19:42:57Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 40,
+                        "author": {
+                          "date": "2019-07-18T15:06:11-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-18T19:26:08Z",
+                        "deletions": 3,
+                        "messageHeadline": "Links tokens in InputLookupQA component.",
+                        "oid": "ba6fde6b5bcf1ae1dcad4af257926338af4e3c31"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-18T19:11:44Z",
+              "mergedAt": "2019-07-18T19:42:57Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 1004,
+              "state": "MERGED",
+              "title": "Links tokens in InputLookupQA component."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-19T11:01:28Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 26,
+                        "author": {
+                          "date": "2019-07-18T14:39:37-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-18T19:42:03Z",
+                        "deletions": 42,
+                        "messageHeadline": "Simplify the representation of a language tag",
+                        "oid": "bbe46d8ca4cebbefc7e6adfe04069fb7328e14f7"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-18T19:40:04Z",
+              "mergedAt": "2019-07-19T11:01:28Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 1005,
+              "state": "MERGED",
+              "title": "Simplify the representation of a language tag"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T21:23:17Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 7,
+                        "author": {
+                          "date": "2019-07-18T14:15:57-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-18T21:15:57Z",
+                        "deletions": 0,
+                        "messageHeadline": "Clarify link to regular github issues in the issue template",
+                        "oid": "128dd826c00ecc69516945574c9ac86efd69e2c6"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-18T21:17:46Z",
+              "mergedAt": "2019-07-18T21:23:17Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 1008,
+              "state": "MERGED",
+              "title": "Clarify link to regular github issues in the issue template"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-18T21:40:51Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-07-18T15:29:13-06:00",
+                          "user": {
+                            "login": "jermnelson"
+                          }
+                        },
+                        "committedDate": "2019-07-18T21:29:13Z",
+                        "deletions": 1,
+                        "messageHeadline": "Update language",
+                        "oid": "6851ac497c1211df9360590493cdc5748f4f5742"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-18T21:29:15Z",
+              "mergedAt": "2019-07-18T21:40:51Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 1009,
+              "state": "MERGED",
+              "title": "Update language "
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-19T16:32:35Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 64,
+                        "author": {
+                          "date": "2019-07-19T10:09:12-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-19T15:34:00Z",
+                        "deletions": 56,
+                        "messageHeadline": "Extract the reducers related to entities to a separate file",
+                        "oid": "264fc3909d0641388f5f3da1c4d24ab29dc30f23"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-19T15:09:59Z",
+              "mergedAt": "2019-07-19T16:32:35Z",
+              "mergedBy": {
+                "login": "aaron-collier"
+              },
+              "number": 1011,
+              "state": "MERGED",
+              "title": "Extract the reducers related to entities to a separate file"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-19T17:20:24Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-07-19T10:11:47-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-19T17:06:49Z",
+                        "deletions": 0,
+                        "messageHeadline": "Add copyright",
+                        "oid": "82689db65d1b938aed46ea535e0a0204205b84f4"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 180,
+                        "author": {
+                          "date": "2019-07-19T10:28:56-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-19T17:09:19Z",
+                        "deletions": 102,
+                        "messageHeadline": "Load the language data once into entities",
+                        "oid": "f2ba6b8c7aa1c278a159cad4d150ab6eb2f69be3"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-19T16:38:21Z",
+              "mergedAt": "2019-07-19T17:20:24Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 1012,
+              "state": "MERGED",
+              "title": "Load the language data once into entities "
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-19T16:55:46Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 17,
+                        "author": {
+                          "date": "2019-07-19T09:50:02-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-19T16:50:02Z",
+                        "deletions": 13,
+                        "messageHeadline": "Move search reducer into seperate file'",
+                        "oid": "441aacfe59a0b6a90afae05161320f9773ea1118"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-19T16:51:33Z",
+              "mergedAt": "2019-07-19T16:55:46Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 1013,
+              "state": "MERGED",
+              "title": "Extract the reducer related to search into a separate file"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-19T19:45:01Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 41,
+                        "author": {
+                          "date": "2019-07-19T14:04:47-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-19T19:04:47Z",
+                        "deletions": 29,
+                        "messageHeadline": "Load the languages when the editor form is drawn",
+                        "oid": "8cee814fa29b370ef80d68a7d6eadfa96949b113"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-19T19:18:10Z",
+              "mergedAt": "2019-07-19T19:45:01Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 1016,
+              "state": "MERGED",
+              "title": "Load the languages when the editor form is drawn"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-19T22:34:04Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 6,
+                        "author": {
+                          "date": "2019-07-19T14:26:28-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-19T19:26:28Z",
+                        "deletions": 26,
+                        "messageHeadline": "Update ResourceStateBuilder to build the simpler language",
+                        "oid": "301a853f6c44b3c80a49ef79534791f4bb29ce3c"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-19T19:28:01Z",
+              "mergedAt": "2019-07-19T22:34:04Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 1017,
+              "state": "MERGED",
+              "title": "Update ResourceStateBuilder to build the simpler language"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-19T20:22:46Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 35,
+                        "author": {
+                          "date": "2019-07-19T13:15:40-07:00",
+                          "user": {
+                            "login": "michelleif"
+                          }
+                        },
+                        "committedDate": "2019-07-19T20:15:40Z",
+                        "deletions": 0,
+                        "messageHeadline": "Update issue templates",
+                        "oid": "b190efb81d22fcf441313dc91dc4fcf70adfbee4"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-19T20:15:41Z",
+              "mergedAt": "2019-07-19T20:22:46Z",
+              "mergedBy": {
+                "login": "aaron-collier"
+              },
+              "number": 1019,
+              "state": "MERGED",
+              "title": "Update issue templates"
+            }
+          },
+          {
+            "node": {
+              "closedAt": null,
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 187,
+                        "author": {
+                          "date": "2019-07-19T16:29:30-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-19T21:29:30Z",
+                        "deletions": 216,
+                        "messageHeadline": "bad redux path",
+                        "oid": "a3c07655262532acd8fe9c563a76f6ebb93d5e59"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-19T21:31:57Z",
+              "mergedAt": null,
+              "mergedBy": null,
+              "number": 1020,
+              "state": "OPEN",
+              "title": "Get rid of items in redux state"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-23T16:55:58Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 376,
+                        "author": {
+                          "date": "2019-07-18T16:20:30-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-23T13:45:10Z",
+                        "deletions": 209,
+                        "messageHeadline": "Adds recursive validation.",
+                        "oid": "7c437a130a8abdffeaf9854e3e3b555662737928"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-19T21:33:09Z",
+              "mergedAt": "2019-07-23T16:55:58Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 1021,
+              "state": "MERGED",
+              "title": "Adds recursive validation. Fixes display of validation errors."
+            }
+          },
+          {
+            "node": {
+              "closedAt": null,
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 241,
+                        "author": {
+                          "date": "2019-06-10T15:10:18-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-06-10T19:10:18Z",
+                        "deletions": 0,
+                        "messageHeadline": "starting context component",
+                        "oid": "b232c8e4c8483a0439340584a749ae3c543757c3"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 413,
+                        "author": {
+                          "date": "2019-06-11T15:28:23-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-06-11T19:28:23Z",
+                        "deletions": 310,
+                        "messageHeadline": "Merge branch 'master' into lookup_context",
+                        "oid": "e5a0b55078fa1f79b25fb1e58f20007f74ff571d"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1451,
+                        "author": {
+                          "date": "2019-06-12T11:23:49-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-06-12T15:23:49Z",
+                        "deletions": 121,
+                        "messageHeadline": "Merge branch 'master' into lookup_context",
+                        "oid": "7e16ecfb745723372f458403d0a02b583c8d8234"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 109,
+                        "author": {
+                          "date": "2019-06-12T14:38:12-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-06-12T18:38:12Z",
+                        "deletions": 6,
+                        "messageHeadline": "adding context example using latest",
+                        "oid": "22c2595566147c847c69ca5cc5c12b7913fbbb78"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 825,
+                        "author": {
+                          "date": "2019-06-13T13:39:18-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-06-13T17:39:18Z",
+                        "deletions": 564,
+                        "messageHeadline": "Merge branch 'master' into lookup_context",
+                        "oid": "c98d1f21027bec0f6a8a15314321b59129da1a16"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 294,
+                        "author": {
+                          "date": "2019-06-13T17:31:18-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-06-13T21:31:18Z",
+                        "deletions": 0,
+                        "messageHeadline": "adding sharevde test example",
+                        "oid": "7baefc88bcccf3316cd1905edf2c5159d108c6de"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 81,
+                        "author": {
+                          "date": "2019-06-14T19:56:50-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-06-14T23:56:50Z",
+                        "deletions": 2,
+                        "messageHeadline": "updating selection and saving",
+                        "oid": "f00a904c0ccd6b265115bc19ed069c6b4cd32050"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 11,
+                        "author": {
+                          "date": "2019-06-17T14:50:37-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-06-17T18:50:37Z",
+                        "deletions": 4,
+                        "messageHeadline": "selection and removal tied in",
+                        "oid": "660bd80a0da2ebacb4a0f2203ad2ca9a688f18fa"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1227,
+                        "author": {
+                          "date": "2019-06-17T16:28:21-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-06-17T20:28:21Z",
+                        "deletions": 883,
+                        "messageHeadline": "merging in changes from master",
+                        "oid": "326f97af7627a957677d0c7952e555de196b3a3d"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 651,
+                        "author": {
+                          "date": "2019-06-18T13:16:30-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-06-18T17:16:30Z",
+                        "deletions": 315,
+                        "messageHeadline": "funneling to different rendering",
+                        "oid": "96dc130c898d55c6e85fa6d36c0298424f474469"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 17,
+                        "author": {
+                          "date": "2019-06-18T13:47:41-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-06-18T17:47:41Z",
+                        "deletions": 6,
+                        "messageHeadline": "adding subtype to trigger context or autocomplete",
+                        "oid": "d19b3cabd508a8b9a0a973076f92fbc0f3d336ec"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 809,
+                        "author": {
+                          "date": "2019-06-18T17:56:45-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-06-18T21:56:45Z",
+                        "deletions": 69,
+                        "messageHeadline": "integrating discogs context typeahead",
+                        "oid": "401f704f0decb1fb67f75ef1b0809af2545e939e"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 85,
+                        "author": {
+                          "date": "2019-06-19T21:42:22-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-06-20T01:42:22Z",
+                        "deletions": 45,
+                        "messageHeadline": "ordering for lcnaf person and organization",
+                        "oid": "f8d8dc936d726978b5d9dc2d0315b45d5940b4a6"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 449,
+                        "author": {
+                          "date": "2019-06-19T22:59:18-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-06-20T02:59:18Z",
+                        "deletions": 438,
+                        "messageHeadline": "eslint updates",
+                        "oid": "9a4377378ccd403eb94814076146952ef8e91a0b"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 60,
+                        "author": {
+                          "date": "2019-06-20T11:43:26-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-06-20T15:43:26Z",
+                        "deletions": 2,
+                        "messageHeadline": "adding wikidata example",
+                        "oid": "1259e1f14ce165df0b3aacfd22e0a44b422daa00"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 7779,
+                        "author": {
+                          "date": "2019-07-14T13:38:20-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-07-14T17:38:20Z",
+                        "deletions": 3262,
+                        "messageHeadline": "merging in latest from master",
+                        "oid": "96a4fb2659cbde93a3961d9fa4340ceb6a7f5548"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 145,
+                        "author": {
+                          "date": "2019-07-18T18:08:04-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-07-18T22:08:04Z",
+                        "deletions": 173,
+                        "messageHeadline": "some refactoring, more to come",
+                        "oid": "effe0474fdd69fbcef096c28b9b798a0c14fd0bc"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 39,
+                        "author": {
+                          "date": "2019-07-18T23:19:27-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-07-19T03:19:27Z",
+                        "deletions": 25,
+                        "messageHeadline": "adding loading icon",
+                        "oid": "8039889589c0e3545e2cddde922bdca0277b6198"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 14,
+                        "author": {
+                          "date": "2019-07-19T14:38:36-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-07-19T18:38:36Z",
+                        "deletions": 7,
+                        "messageHeadline": "additional changes",
+                        "oid": "fb5c165ebf72b2e054088453eefb654f038660f6"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2657,
+                        "author": {
+                          "date": "2019-07-19T17:21:23-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-07-19T21:21:23Z",
+                        "deletions": 2457,
+                        "messageHeadline": "merging from master, refactoring search to allow different input comp\u2026",
+                        "oid": "c3a06b5236a932249d55296596608dd647c639fd"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 150,
+                        "author": {
+                          "date": "2019-07-22T22:17:16-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-07-23T02:17:16Z",
+                        "deletions": 411,
+                        "messageHeadline": "some refactoring, with combining discogs and typeahead into one compo\u2026",
+                        "oid": "8294e9eaa408ab43ebce305aec08111ae73328d7"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1231,
+                        "author": {
+                          "date": "2019-07-25T17:30:02-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-07-25T21:30:02Z",
+                        "deletions": 578,
+                        "messageHeadline": "merging latest in from master, updating error handling for context",
+                        "oid": "072e465c7dcdbe9ffc5ca02444d4e776a44f7ff6"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 32,
+                        "author": {
+                          "date": "2019-07-25T17:42:48-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-07-25T21:42:48Z",
+                        "deletions": 35,
+                        "messageHeadline": "typeahead warnings and errors",
+                        "oid": "aabace5c40062bbb9ea74dbb5352ec28d64ce9b4"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 213,
+                        "author": {
+                          "date": "2019-07-25T18:16:09-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-07-25T22:16:09Z",
+                        "deletions": 73,
+                        "messageHeadline": "getting in literal changes as well",
+                        "oid": "207f7d6aa7f48ce01580a10e569fba9fab975231"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 48,
+                        "author": {
+                          "date": "2019-07-26T16:36:20-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-07-26T20:36:20Z",
+                        "deletions": 63,
+                        "messageHeadline": "working through warnings",
+                        "oid": "7e0de98f4532eef5802cb939f1777e627925bea9"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 294,
+                        "author": {
+                          "date": "2019-07-26T17:47:41-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-07-26T21:47:41Z",
+                        "deletions": 295,
+                        "messageHeadline": "pulling out styles into css",
+                        "oid": "f99cb6b8aa09a32551469af4e8c56e7b7b6ffa7d"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-07-30T11:14:20-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-07-30T15:14:20Z",
+                        "deletions": 2,
+                        "messageHeadline": "removing local file that shouldn't be in the branch",
+                        "oid": "7d7dd83a4f7dfe64b1de356cfa1dc876c20c8127"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 755,
+                        "author": {
+                          "date": "2019-07-30T14:35:57-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-07-30T18:35:57Z",
+                        "deletions": 651,
+                        "messageHeadline": "integrating latest from master",
+                        "oid": "1c2e013eea2ae3513679a5c955656c9bbe61945e"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-19T21:45:52Z",
+              "mergedAt": null,
+              "mergedBy": null,
+              "number": 1023,
+              "state": "OPEN",
+              "title": "Integrating context and discogs typeaheads"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-23T14:53:54Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 12,
+                        "author": {
+                          "date": "2019-07-22T09:18:04-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-22T21:07:19Z",
+                        "deletions": 7,
+                        "messageHeadline": "Switch to using shortid for lang id to avoid blank or missing default\u2026",
+                        "oid": "e3035a135d3fe557b67119c06b394416ee4d862a"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-22T13:18:49Z",
+              "mergedAt": "2019-07-23T14:53:54Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 1026,
+              "state": "MERGED",
+              "title": "Switch to using shortid for lang id to avoid blank or missing default\u2026"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-23T21:03:19Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 117,
+                        "author": {
+                          "date": "2019-07-22T12:13:48-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-22T19:13:48Z",
+                        "deletions": 100,
+                        "messageHeadline": "Add an action create to clear the resource URI message",
+                        "oid": "51190a90411215929818452aea497dff6d457899"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-07-22T12:23:12-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-22T19:23:12Z",
+                        "deletions": 2,
+                        "messageHeadline": "Remove comment cruft",
+                        "oid": "386bdd8a8abf2b5242ff7ee76cb73dd78cd7b05e"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 3,
+                        "author": {
+                          "date": "2019-07-22T12:57:20-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-22T19:57:20Z",
+                        "deletions": 1,
+                        "messageHeadline": "Mock function in test",
+                        "oid": "704dffb58dc939eaddaf606101f7c6c77507a9bd"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 18,
+                        "author": {
+                          "date": "2019-07-22T13:20:41-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-22T20:20:41Z",
+                        "deletions": 2,
+                        "messageHeadline": "Add test for clearing resource URI message",
+                        "oid": "c36f8423a00d9163c1755d20c3303a61304e5a37"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 97,
+                        "author": {
+                          "date": "2019-07-23T08:30:05-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-23T15:30:05Z",
+                        "deletions": 78,
+                        "messageHeadline": "Undo changes to package-lock.json",
+                        "oid": "006f2f5e7a6fe11063871126e6d4ccc6fff05c56"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 10,
+                        "author": {
+                          "date": "2019-07-23T09:53:50-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-23T16:53:50Z",
+                        "deletions": 25,
+                        "messageHeadline": "Remove unnecessary action creator",
+                        "oid": "39f0cbc7c369d1ae45e8e28ed843f56c5c07541d"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 13,
+                        "author": {
+                          "date": "2019-07-23T10:01:25-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-23T17:01:25Z",
+                        "deletions": 11,
+                        "messageHeadline": "Rewrite testing",
+                        "oid": "a568e2d78c46ca5e1aa051a2f31b061fec569341"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-22T19:35:13Z",
+              "mergedAt": "2019-07-23T21:03:19Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 1027,
+              "state": "MERGED",
+              "title": "Clears the resourceURIMessage when clicking back into the editor screen"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-23T14:51:25Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 325,
+                        "author": {
+                          "date": "2019-07-22T11:12:32-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-22T22:04:26Z",
+                        "deletions": 42,
+                        "messageHeadline": "Correctly handles nested properties that are mandatory and have defau\u2026",
+                        "oid": "d7d38b3df4901ba669c5345c3f1599fc8a23369a"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-22T21:12:03Z",
+              "mergedAt": "2019-07-23T14:51:25Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 1028,
+              "state": "MERGED",
+              "title": "Correctly handles nested properties that are mandatory and have defau\u2026"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-23T15:26:35Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 11,
+                        "author": {
+                          "date": "2019-07-22T15:09:14-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-22T22:09:14Z",
+                        "deletions": 1,
+                        "messageHeadline": "Add default sorting to the sinopia resource templates table",
+                        "oid": "3a2e8dd92a08b96d7fc1363e9402c78bd5bafa6c"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 5,
+                        "author": {
+                          "date": "2019-07-22T15:30:13-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-22T22:30:13Z",
+                        "deletions": 0,
+                        "messageHeadline": "Fixes #847 - word wrapping",
+                        "oid": "1d3aa50fa7809aca9b897cf13f4f8eccdbc18cb6"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-22T22:09:55Z",
+              "mergedAt": "2019-07-23T15:26:35Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 1029,
+              "state": "MERGED",
+              "title": "Add default sorting to the sinopia resource templates table"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-23T17:28:07Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-07-22T16:12:37-07:00",
+                          "user": {
+                            "login": "peetucket"
+                          }
+                        },
+                        "committedDate": "2019-07-22T23:12:37Z",
+                        "deletions": 0,
+                        "messageHeadline": "wrap all columns in resource template table",
+                        "oid": "03b23ad8478ed6977e0c20335ea29639745b7c2e"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-22T23:13:05Z",
+              "mergedAt": null,
+              "mergedBy": null,
+              "number": 1030,
+              "state": "CLOSED",
+              "title": "wrap all columns in resource template table"
+            }
+          },
+          {
+            "node": {
+              "closedAt": null,
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 13,
+                        "author": {
+                          "date": "2019-07-22T16:40:51-07:00",
+                          "user": {
+                            "login": "peetucket"
+                          }
+                        },
+                        "committedDate": "2019-07-24T21:07:05Z",
+                        "deletions": 4,
+                        "messageHeadline": "add date field to resource template table",
+                        "oid": "d1378efffd078bfd0119dd590fcda98780a7ddc1"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-22T23:41:51Z",
+              "mergedAt": null,
+              "mergedBy": null,
+              "number": 1031,
+              "state": "OPEN",
+              "title": "add date field to resource template table"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-23T15:46:49Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-07-23T11:33:31-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-23T15:33:31Z",
+                        "deletions": 1,
+                        "messageHeadline": "Fixed actionCreators/resources test.",
+                        "oid": "5050a7883cb5d68b75870109ad8f63f3573d3385"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-23T15:33:53Z",
+              "mergedAt": "2019-07-23T15:46:49Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 1034,
+              "state": "MERGED",
+              "title": "Fixed actionCreators/resources test."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-23T17:55:17Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 24,
+                        "author": {
+                          "date": "2019-07-23T13:27:01-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-23T17:49:21Z",
+                        "deletions": 7,
+                        "messageHeadline": "Oops, adds validation error display to InputURI.",
+                        "oid": "34c9bea967331f9e9c65f6aca02c5cd54a3fc52e"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-23T17:49:44Z",
+              "mergedAt": "2019-07-23T17:55:17Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 1038,
+              "state": "MERGED",
+              "title": "Oops, adds validation error display to InputURI."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-23T21:08:30Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 7,
+                        "author": {
+                          "date": "2019-07-23T13:33:39-06:00",
+                          "user": {
+                            "login": "jermnelson"
+                          }
+                        },
+                        "committedDate": "2019-07-23T19:33:39Z",
+                        "deletions": 6,
+                        "messageHeadline": "Patch 0.3.5 along with Release notes",
+                        "oid": "1a1175be39669a2ea541499a01837a3e89b991bd"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-23T19:35:03Z",
+              "mergedAt": "2019-07-23T21:08:30Z",
+              "mergedBy": {
+                "login": "jmartin-sul"
+              },
+              "number": 1041,
+              "state": "MERGED",
+              "title": "Patch Release 0.3.5 "
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-23T21:01:22Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-07-23T13:04:24-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-23T20:04:24Z",
+                        "deletions": 1,
+                        "messageHeadline": "Fixes #1037",
+                        "oid": "e23a47b28b8c7e0a9454632b55a071f5d909e8cf"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-07-23T13:57:10-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-23T20:57:10Z",
+                        "deletions": 1,
+                        "messageHeadline": "Update integration test",
+                        "oid": "f6e47f0c75c6f8131ef271ed02f4f9e005beb7d7"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-23T20:05:31Z",
+              "mergedAt": "2019-07-23T21:01:22Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 1042,
+              "state": "MERGED",
+              "title": "Changle tab text to \"Load RDF\""
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-23T23:30:15Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-07-23T13:45:42-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-23T20:45:42Z",
+                        "deletions": 1,
+                        "messageHeadline": "use the correct authority for MESH",
+                        "oid": "cb2969f0f6c728ec21efbb610dc8fe7608033688"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-23T20:46:43Z",
+              "mergedAt": "2019-07-23T23:30:15Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 1043,
+              "state": "MERGED",
+              "title": "Use the correct authority for MESH"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-26T23:04:34Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 332,
+                        "author": {
+                          "date": "2019-07-23T12:17:30-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-24T20:59:54Z",
+                        "deletions": 406,
+                        "messageHeadline": "Adds add/remove buttons to property panels.",
+                        "oid": "2de97fd7e91c7edbf0cf3c39f1e68653c2a37999"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-24T10:52:50Z",
+              "mergedAt": "2019-07-26T23:04:34Z",
+              "mergedBy": {
+                "login": "aaron-collier"
+              },
+              "number": 1046,
+              "state": "MERGED",
+              "title": " Adds add/remove functionality to properties of root resource template."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-25T17:33:29Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 20,
+                        "author": {
+                          "date": "2019-07-24T18:04:57-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-24T22:04:57Z",
+                        "deletions": 3,
+                        "messageHeadline": "Adds error message when user enters a literal in InputURI.",
+                        "oid": "838d695acad1342c72ba58fdb2d48e320a67848e"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-24T22:05:59Z",
+              "mergedAt": "2019-07-25T17:33:28Z",
+              "mergedBy": {
+                "login": "aaron-collier"
+              },
+              "number": 1050,
+              "state": "MERGED",
+              "title": "Adds error message when user enters a literal in InputURI."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-25T17:46:40Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 110,
+                        "author": {
+                          "date": "2019-07-25T11:19:15-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-25T15:19:15Z",
+                        "deletions": 2,
+                        "messageHeadline": "Adds notification when saving and publishing a resource.",
+                        "oid": "30e751ca0391a8f5012143e7c710706dc94feae7"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-25T15:19:40Z",
+              "mergedAt": "2019-07-25T17:46:40Z",
+              "mergedBy": {
+                "login": "aaron-collier"
+              },
+              "number": 1052,
+              "state": "MERGED",
+              "title": "Adds notification when saving and publishing a resource."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-25T17:01:10Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-07-25T08:53:13-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-25T15:53:13Z",
+                        "deletions": 2,
+                        "messageHeadline": "Reload the resource tempaltes summaries after import",
+                        "oid": "6816e1dd2f90ef1e2cb12015c428f20259ab2912"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-25T15:54:54Z",
+              "mergedAt": "2019-07-25T17:01:10Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 1053,
+              "state": "MERGED",
+              "title": "Reload the resource tempaltes summaries after import"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-25T21:25:57Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 50,
+                        "author": {
+                          "date": "2019-07-25T12:01:32-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-25T21:17:33Z",
+                        "deletions": 46,
+                        "messageHeadline": "Also validates when adding / removing properties.",
+                        "oid": "a09e9a0052f54336dd51f525cfb272ebf5c0594f"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 11,
+                        "author": {
+                          "date": "2019-07-25T12:56:45-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-25T21:17:36Z",
+                        "deletions": 0,
+                        "messageHeadline": "Added additional waits to literalPropertyTemplates.test.js",
+                        "oid": "22627b9ba61097cfc4d7f05d6c640244c9d03e27"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-25T16:24:26Z",
+              "mergedAt": "2019-07-25T21:25:57Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 1054,
+              "state": "MERGED",
+              "title": "Also validates when adding / removing properties."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-25T18:26:22Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 5,
+                        "author": {
+                          "date": "2019-07-25T11:03:15-07:00",
+                          "user": {
+                            "login": "peetucket"
+                          }
+                        },
+                        "committedDate": "2019-07-25T18:05:13Z",
+                        "deletions": 5,
+                        "messageHeadline": "adjust css style of component to make react happy",
+                        "oid": "1c28af0a31739420a76d819445708294d52c53e1"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-25T18:03:33Z",
+              "mergedAt": "2019-07-25T18:26:22Z",
+              "mergedBy": {
+                "login": "aaron-collier"
+              },
+              "number": 1056,
+              "state": "MERGED",
+              "title": "adjust css style of component to make react happy"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-25T21:27:34Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 30,
+                        "author": {
+                          "date": "2019-07-25T14:07:06-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-25T18:07:06Z",
+                        "deletions": 15,
+                        "messageHeadline": "Allows literal in InputLookupQA.",
+                        "oid": "355971ef49e4a454e36077459bd6bd0105bdbe8f"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-25T18:07:29Z",
+              "mergedAt": "2019-07-25T21:27:34Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 1057,
+              "state": "MERGED",
+              "title": "Allows literal in InputLookupQA."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-25T20:03:27Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 6,
+                        "author": {
+                          "date": "2019-07-25T11:59:25-07:00",
+                          "user": {
+                            "login": "michelleif"
+                          }
+                        },
+                        "committedDate": "2019-07-25T18:59:25Z",
+                        "deletions": 5,
+                        "messageHeadline": "Update NewsItem.jsx",
+                        "oid": "ada3213e56c46b26a8e4e773fb1961621d7c8775"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-25T18:59:38Z",
+              "mergedAt": "2019-07-25T20:03:27Z",
+              "mergedBy": {
+                "login": "aaron-collier"
+              },
+              "number": 1058,
+              "state": "MERGED",
+              "title": "Update NewsItem.jsx"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-25T21:48:01Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-07-25T14:40:48-07:00",
+                          "user": {
+                            "login": "peetucket"
+                          }
+                        },
+                        "committedDate": "2019-07-25T21:41:04Z",
+                        "deletions": 7,
+                        "messageHeadline": "Patch 0.3.6 along with Release notes",
+                        "oid": "4bb3762e6b057c4a485229aa045e4d8e5afc2e73"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-25T21:44:20Z",
+              "mergedAt": "2019-07-25T21:48:01Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 1061,
+              "state": "MERGED",
+              "title": "Patch 0.3.6 along with Release notes"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-25T22:09:53Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-07-25T15:04:16-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-25T22:04:16Z",
+                        "deletions": 3,
+                        "messageHeadline": "Debugging search in dev",
+                        "oid": "aad799c3c1eac040ef790fef3ba66312d78dc9a8"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-25T22:05:17Z",
+              "mergedAt": "2019-07-25T22:09:53Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 1062,
+              "state": "MERGED",
+              "title": "Set SEARCH_HOST in circle so it is available in the build"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-25T22:15:23Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-07-25T15:10:01-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-25T22:10:01Z",
+                        "deletions": 0,
+                        "messageHeadline": "Add to webpack",
+                        "oid": "08b9291bab14c1ac8725899f18e51ba5a4fe62c9"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-25T22:14:58Z",
+              "mergedAt": "2019-07-25T22:15:23Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 1063,
+              "state": "MERGED",
+              "title": "Follow up on search URL"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-25T22:37:40Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 3,
+                        "author": {
+                          "date": "2019-07-25T15:33:34-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-25T22:33:34Z",
+                        "deletions": 3,
+                        "messageHeadline": "Fix docker build command",
+                        "oid": "0ea641d687dc21ed4de4f57cf62a60d8010c5800"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-25T22:34:29Z",
+              "mergedAt": "2019-07-25T22:37:40Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 1064,
+              "state": "MERGED",
+              "title": "Fix docker build command"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-26T00:03:48Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 10,
+                        "author": {
+                          "date": "2019-07-25T16:32:36-07:00",
+                          "user": {
+                            "login": "peetucket"
+                          }
+                        },
+                        "committedDate": "2019-07-25T23:32:36Z",
+                        "deletions": 9,
+                        "messageHeadline": "Patch 0.3.7 with release notes",
+                        "oid": "4598d2b72f93cb22e6fba3ec3bd2007caa4f123d"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-25T23:32:48Z",
+              "mergedAt": "2019-07-26T00:03:48Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 1066,
+              "state": "MERGED",
+              "title": "Patch 0.3.7 with release notes"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-29T17:55:45Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 248,
+                        "author": {
+                          "date": "2019-07-25T17:15:56-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-29T16:06:12Z",
+                        "deletions": 72,
+                        "messageHeadline": "Notifies user before discarding unsaved resource. Disables Save butto\u2026",
+                        "oid": "972030b24ac3ddd92a4d89fd311ba7df57428ffb"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-07-29T12:17:35-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-29T16:17:35Z",
+                        "deletions": 1,
+                        "messageHeadline": "Test tweak",
+                        "oid": "c93f83d1eaffd7f07ab6c0bac4c5cb689980be0c"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-26T14:20:11Z",
+              "mergedAt": "2019-07-29T17:55:45Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 1067,
+              "state": "MERGED",
+              "title": "Unsaved resource prompt"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-26T18:50:30Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-07-26T11:45:41-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-26T18:45:41Z",
+                        "deletions": 1,
+                        "messageHeadline": "Set INDEX_URL into the env so it is available",
+                        "oid": "3ea3a9ced06403bae4ce5f6d6dfff3b7b77ecfb3"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-26T18:46:51Z",
+              "mergedAt": "2019-07-26T18:50:30Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 1069,
+              "state": "MERGED",
+              "title": "Set INDEX_URL into the env so it is available"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-26T23:43:14Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 5,
+                        "author": {
+                          "date": "2019-07-26T16:13:11-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-26T23:13:11Z",
+                        "deletions": 0,
+                        "messageHeadline": "Do not copy the dist and nodmodules into the image",
+                        "oid": "d36d50bf84fe6bcd0a82707a0498f80123e0abd2"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-26T23:31:12Z",
+              "mergedAt": "2019-07-26T23:43:14Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 1075,
+              "state": "MERGED",
+              "title": "Do not copy the dist and nodmodules into the image"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-29T17:58:04Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 37,
+                        "author": {
+                          "date": "2019-07-29T13:36:11-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-29T17:36:11Z",
+                        "deletions": 26,
+                        "messageHeadline": "Changes add buttons to add another.",
+                        "oid": "847e5cb43d12bc72db570d088ba1df0e2f7a2e3a"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-29T17:36:45Z",
+              "mergedAt": "2019-07-29T17:58:04Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 1076,
+              "state": "MERGED",
+              "title": "Changes add buttons to add another."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-29T18:08:01Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-07-29T12:48:18-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-29T17:48:18Z",
+                        "deletions": 11,
+                        "messageHeadline": "Removed duplicate lookups",
+                        "oid": "dc995f042c1452872bbbeb077b2546826415d0a5"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-29T17:48:34Z",
+              "mergedAt": "2019-07-29T18:08:01Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 1077,
+              "state": "MERGED",
+              "title": "Removed duplicate lookups"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-29T19:18:47Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-07-29T13:38:10-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-29T18:52:36Z",
+                        "deletions": 1,
+                        "messageHeadline": "Change keyField to a field that exists on the results",
+                        "oid": "d936e81182a577debb2faa2f69809851889144c4"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-29T18:52:21Z",
+              "mergedAt": "2019-07-29T19:18:46Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 1079,
+              "state": "MERGED",
+              "title": "Change keyField to a field that exists on the results"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-29T19:53:24Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 30,
+                        "author": {
+                          "date": "2019-07-29T14:59:01-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-29T18:59:55Z",
+                        "deletions": 23,
+                        "messageHeadline": "Changes to adding / toggling of properties.",
+                        "oid": "e8104195bbb11c05ff562eeab39f3fe5f9d5d78a"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-29T19:00:22Z",
+              "mergedAt": "2019-07-29T19:53:24Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 1080,
+              "state": "MERGED",
+              "title": "Changes to adding / toggling of properties."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-29T21:10:41Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 7,
+                        "author": {
+                          "date": "2019-07-29T15:28:56-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-29T20:57:04Z",
+                        "deletions": 9,
+                        "messageHeadline": "Use the Button attributes rather than class",
+                        "oid": "f81ec9ea9d1df16148707cab281227a71ceb815c"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-29T20:29:18Z",
+              "mergedAt": "2019-07-29T21:10:41Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 1081,
+              "state": "MERGED",
+              "title": "Use the Button attributes rather than class"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-30T01:09:34Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 27,
+                        "author": {
+                          "date": "2019-07-29T16:55:14-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-29T21:05:41Z",
+                        "deletions": 14,
+                        "messageHeadline": "Aligned InputLiteral and InputLookup.",
+                        "oid": "225b62dbf5f4a0b768c1d6e5d32acca1887f3ad8"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-29T20:56:13Z",
+              "mergedAt": "2019-07-30T01:09:34Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 1085,
+              "state": "MERGED",
+              "title": "Aligned InputLiteral and InputLookup."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-29T21:17:53Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 5,
+                        "author": {
+                          "date": "2019-07-29T17:11:08-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-29T21:11:08Z",
+                        "deletions": 5,
+                        "messageHeadline": "Switches to a right chevron for contracted toggle.",
+                        "oid": "4da9d3d35cb993e29aef334411163cac02f90b45"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-29T21:11:39Z",
+              "mergedAt": "2019-07-29T21:17:53Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 1086,
+              "state": "MERGED",
+              "title": "Switches to a right chevron for contracted toggle."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-29T21:53:46Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-07-29T17:16:58-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-29T21:16:58Z",
+                        "deletions": 1,
+                        "messageHeadline": "Added + before blue Add button on property panel.",
+                        "oid": "bff119b14179ecb60edaa97f4cc647d0554bd614"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-07-29T17:33:22-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-29T21:33:22Z",
+                        "deletions": 2,
+                        "messageHeadline": "Test tweak",
+                        "oid": "c40f80de1e08aba32bc0f012655530f42259384c"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-29T21:17:25Z",
+              "mergedAt": "2019-07-29T21:53:46Z",
+              "mergedBy": {
+                "login": "jermnelson"
+              },
+              "number": 1087,
+              "state": "MERGED",
+              "title": "Added + before blue Add button on property panel."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-30T01:08:54Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 11,
+                        "author": {
+                          "date": "2019-07-29T17:25:56-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-29T22:22:54Z",
+                        "deletions": 3,
+                        "messageHeadline": "Only render property panel body when it has been added.",
+                        "oid": "9d163fb08af6a4ed18930125cb9158c98e92814d"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-29T21:26:32Z",
+              "mergedAt": "2019-07-30T01:08:54Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 1088,
+              "state": "MERGED",
+              "title": "Only render property panel body when it has been added."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-30T01:18:44Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 2,
+                        "author": {
+                          "date": "2019-07-29T18:09:31-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-07-30T01:09:31Z",
+                        "deletions": 2,
+                        "messageHeadline": "required asterisk same color as text",
+                        "oid": "470c4e7f28641c73c1309313fda4c50047884a5d"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-30T01:15:10Z",
+              "mergedAt": "2019-07-30T01:18:44Z",
+              "mergedBy": {
+                "login": "aaron-collier"
+              },
+              "number": 1090,
+              "state": "MERGED",
+              "title": "make \"required\" asterisk same color as text"
+            }
+          },
+          {
+            "node": {
+              "closedAt": null,
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 167,
+                        "author": {
+                          "date": "2019-07-30T08:20:03-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-30T12:55:52Z",
+                        "deletions": 99,
+                        "messageHeadline": "Moves property info to icon. Bolds property labels.",
+                        "oid": "d1083c8a90d6d14eda762ebffd9026f677c33534"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 8,
+                        "author": {
+                          "date": "2019-07-30T09:49:54-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-30T13:49:54Z",
+                        "deletions": 5,
+                        "messageHeadline": "Tweak to integration test.",
+                        "oid": "b11b6b9730e0eee92566e2cd42f9c7915cb17635"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-30T12:20:36Z",
+              "mergedAt": null,
+              "mergedBy": null,
+              "number": 1091,
+              "state": "OPEN",
+              "title": "Moves property info to icon. Bolds property labels."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-30T14:17:32Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-07-30T08:33:05-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-30T12:33:05Z",
+                        "deletions": 3,
+                        "messageHeadline": "Fixes PropType for current user for SaveAndPublishButton.",
+                        "oid": "ca9a1fa66357c25c66d3e218e217b36f7e98e5d6"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-30T12:33:32Z",
+              "mergedAt": "2019-07-30T14:17:32Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 1093,
+              "state": "MERGED",
+              "title": "Fixes PropType for current user for SaveAndPublishButton."
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-30T17:30:21Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 1,
+                        "author": {
+                          "date": "2019-07-30T09:48:46-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-30T14:48:46Z",
+                        "deletions": 6,
+                        "messageHeadline": "Simplify LanguageButton",
+                        "oid": "6ebf65c9d322698133f30e6834ae7f9c795d81ba"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-30T14:49:05Z",
+              "mergedAt": "2019-07-30T17:30:21Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 1094,
+              "state": "MERGED",
+              "title": "Simplify LanguageButton"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-30T15:10:07Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 6,
+                        "author": {
+                          "date": "2019-07-30T08:45:49-06:00",
+                          "user": {
+                            "login": "jermnelson"
+                          }
+                        },
+                        "committedDate": "2019-07-30T14:45:49Z",
+                        "deletions": 2,
+                        "messageHeadline": "Additional steps in Tagged Release template",
+                        "oid": "2a46835481b4d05e71ac0f36de1aaf5f7e31ae26"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-07-30T08:47:10-06:00",
+                          "user": {
+                            "login": "jermnelson"
+                          }
+                        },
+                        "committedDate": "2019-07-30T14:58:56Z",
+                        "deletions": 3,
+                        "messageHeadline": "Tagged version 0.3.8",
+                        "oid": "c3a11ef20565a4991ffa5d32c2d722eff4f3dab3"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-30T14:53:48Z",
+              "mergedAt": "2019-07-30T15:10:07Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 1095,
+              "state": "MERGED",
+              "title": "Patch 0.3.8"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-30T17:52:21Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 20,
+                        "author": {
+                          "date": "2019-07-30T10:12:35-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-30T17:46:48Z",
+                        "deletions": 38,
+                        "messageHeadline": "Remove language label from the resource state",
+                        "oid": "38c871522670c2219c5d23031e4030a9fb0d7b37"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-30T15:12:50Z",
+              "mergedAt": "2019-07-30T17:52:21Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 1096,
+              "state": "MERGED",
+              "title": "Remove language label from the resource state"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-30T17:22:55Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 0,
+                        "author": {
+                          "date": "2019-07-30T10:47:29-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-30T15:51:57Z",
+                        "deletions": 27,
+                        "messageHeadline": "Remove unnecessary property formData from InputLiteral",
+                        "oid": "38fff23bb0b4c2c2c7bf3efe3ec874c51fb99d93"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-30T15:51:10Z",
+              "mergedAt": "2019-07-30T17:22:55Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 1097,
+              "state": "MERGED",
+              "title": "Remove unnecessary property formData from InputLiteral"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-30T17:53:10Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 14,
+                        "author": {
+                          "date": "2019-07-30T11:33:01-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-30T17:32:07Z",
+                        "deletions": 8,
+                        "messageHeadline": "Make the layout responsive.",
+                        "oid": "bc980cdff564410ca1d45de2884d49b4a0a9dc79"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-30T16:43:23Z",
+              "mergedAt": "2019-07-30T17:53:10Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
+              "number": 1098,
+              "state": "MERGED",
+              "title": "Make the layout responsive."
+            }
+          },
+          {
+            "node": {
+              "closedAt": null,
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 8,
+                        "author": {
+                          "date": "2019-07-30T13:10:24-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-30T18:10:24Z",
+                        "deletions": 2,
+                        "messageHeadline": "Right align the add/remove panel header buttons",
+                        "oid": "91b47ee2351c2f68ef93da52e0ac3ecbb80e7c8e"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-30T18:11:08Z",
+              "mergedAt": null,
+              "mergedBy": null,
+              "number": 1102,
+              "state": "OPEN",
+              "title": "Right align the add/remove panel header buttons"
+            }
+          }
+        ],
+        "pageInfo": {
+          "endCursor": "Y3Vyc29yOnYyOpHOEgmf1w==",
+          "hasNextPage": false,
+          "startCursor": "Y3Vyc29yOnYyOpHOEcWbwg=="
+        }
+      }
+    }
+  }
+}

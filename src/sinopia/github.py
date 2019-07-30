@@ -12,6 +12,7 @@ with open(ENV_PATH) as fo:
     token = fo.read()[:-1]
     GITHUB_HEADERS = {'Authorization': f"token {token}"}
 
+
 def all_issues(**kwargs):
     """Queries Github and retrieves all state issues in a Github repository
 
@@ -33,6 +34,24 @@ def all_issues(**kwargs):
         issues.append(closed_issues)
         hasNextPage = closed_issues['data']['repository']['issues']['pageInfo']['hasNextPage']
     return issues
+
+def all_pull_requests(**kwargs):
+    """Queries Github and retrieves all PRs from a Github repository
+
+    Keyword arguments:
+    repo -- The  name of the LD4P repository (defaults sinopia_editor)
+    """
+    pull_requests = []
+    repo = repo=kwargs.get('repo', 'sinopia_editor')
+    pr_shard = pull_requests_query(repo=repo)
+    pull_requests.append(pr_shard)
+    hasNextPage = pr_shard['data']['repository']['pullRequests']['pageInfo']['hasNextPage']
+    while hasNextPage:
+        pr_shard = pull_requests_query(repo=repo,
+            after=pr_shard['data']['repository']['pullRequests']['pageInfo']['endCursor'])
+        pull_requests.append(pr_shard)
+        hasNextPage = pr_shard['data']['repository']['pullRequests']['pageInfo']['hasNextPage']
+    return pull_requests
 
 def __get_after__(**kwargs):
     """Helper function returns string for Graph QL after"""
@@ -181,13 +200,28 @@ def pull_requests_query(**kwargs):
                               node {{
                                   commit {{
                                     oid
+                                    additions
+                                    deletions
                                     committedDate
+                                    messageHeadline
+                                    author {{
+                                        user {{
+                                          login
+                                        }}
+                                        date
+                                    }}
                                   }}
                               }}
                           }}
                         }}
                         createdAt
+                        closedAt
+                        mergedAt
+                        mergedBy {{
+                          login
+                        }}
                         number
+                        title
                         state
                       }}
                     }}
@@ -201,7 +235,7 @@ def pull_requests_query(**kwargs):
     payload = result.json()
     if "errors" in payload.keys():
         print(payload)
-    return payload    
+    return payload
 
 def write_closed_issues(all_closed):
     """Takes a listing of all closed issues and persists JSON to filesystem

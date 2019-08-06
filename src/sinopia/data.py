@@ -13,14 +13,15 @@ def commits_data_frame(**kwargs):
     commits = kwargs.get('commits', [])
     additions, deletions, author, headline, committedDate, authorDate = {}, {}, {}, {}, {}, {}
     for row in commits:
-        node = row['node']
-        oid = node['oid']
-        committedDate[oid] = pd.Timestamp(node['committedDate'])
-        author[oid] = node['author']['user']['login']
-        authorDate[oid] = pd.Timestamp(node['author']['date'])
-        headline[oid] = node['messageHeadline']
-        additions[oid] = node['additions']
-        deletions[oid] = node['deletions']
+        commit = row['node']['commit']
+        oid = commit['oid']
+        committedDate[oid] = pd.Timestamp(commit['committedDate'])
+        author[oid] = commit['author']['user']['login']
+        # Ugly hack to use the same timezone
+        authorDate[oid] = pd.Timestamp(f"{commit['author']['date'][0:19]}Z")
+        headline[oid] = commit['messageHeadline']
+        additions[oid] = commit['additions']
+        deletions[oid] = commit['deletions']
     df = pd.DataFrame({
         'author': author,
         'headline': headline,
@@ -69,3 +70,14 @@ def issues_data_frame(**kwargs):
     })
     df['elapsed'] = df['closed'] - df['created']
     return df
+
+
+def push_request_data_frame(**kwargs):
+    """Takes JSON Github v4 push requests payload and returns a Panda's
+    data DataFrame
+
+    Keyword arguments:
+    push_requests -- list of push requests
+    """
+    push_requests = kwargs.get("push_requests", [])
+    

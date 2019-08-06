@@ -1,8 +1,11 @@
 __author__ = "Jeremy Nelson"
 __license__ = "Apache 2"
+"""documentation for https://developer.github.com/v4/"""
 
 import datetime
+import data
 import os
+import pandas as pd
 import requests
 
 GITHUB_URL = 'https://api.github.com/graphql'
@@ -41,7 +44,7 @@ def all_pull_requests(**kwargs):
     Keyword arguments:
     repo -- The  name of the LD4P repository (defaults sinopia_editor)
     """
-    pull_requests = []
+    pull_requests = {}
     repo = repo=kwargs.get('repo', 'sinopia_editor')
     pr_shard = pull_requests_query(repo=repo)
     pull_requests.append(pr_shard)
@@ -59,6 +62,18 @@ def __get_after__(**kwargs):
     if len(after) > 0:
         after = """, after: "{after}" """.format(after=after)
     return after
+
+def __pr_series__(pr_shard):
+    commits_sha = []
+    pr_number = []
+    pr_createdAt = []
+    pr_mergedAt = []
+    pr_title = []
+    for row in pr_shard['data']['repository']['pullRequests']['edges']:
+        pr_number.append(row['number'])
+        pr_createdAt.append(row['createdAt'])
+        pr_mergedAt.append(row['mergedAt'])
+        pr_
 
 def commits_query(**kwargs):
     """Queries repository for commits and returns JSON
@@ -186,7 +201,7 @@ def pull_requests_query(**kwargs):
     query = {
         'query': """{{
             repository(owner:"LD4P", name:"{repo}") {{
-                pullRequests(baseRefName: "master", first:, {first} {after}) {{
+                pullRequests(baseRefName: "master", first: {first}, {after}) {{
                     pageInfo {{
                         startCursor
                         hasNextPage
@@ -194,6 +209,9 @@ def pull_requests_query(**kwargs):
                     }}
                     edges {{
                       node {{
+                        author {{
+                          login
+                        }}
                         closedAt
                         commits(first: 100) {{
                            edges {{

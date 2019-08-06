@@ -1701,7 +1701,7 @@
           },
           {
             "node": {
-              "closedAt": null,
+              "closedAt": "2019-07-31T12:38:57Z",
               "commits": {
                 "edges": [
                   {
@@ -1727,7 +1727,7 @@
               "mergedAt": null,
               "mergedBy": null,
               "number": 1020,
-              "state": "OPEN",
+              "state": "CLOSED",
               "title": "Get rid of items in redux state"
             }
           },
@@ -2243,6 +2243,23 @@
                         "deletions": 651,
                         "messageHeadline": "integrating latest from master",
                         "oid": "1c2e013eea2ae3513679a5c955656c9bbe61945e"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 4,
+                        "author": {
+                          "date": "2019-07-30T16:23:10-04:00",
+                          "user": {
+                            "login": "hudajkhan"
+                          }
+                        },
+                        "committedDate": "2019-07-30T20:23:10Z",
+                        "deletions": 10,
+                        "messageHeadline": "having context selection also include link",
+                        "oid": "d464fc6f84d718e9e2bf2bb735813b03a93f1130"
                       }
                     }
                   }
@@ -3699,50 +3716,52 @@
           },
           {
             "node": {
-              "closedAt": null,
+              "closedAt": "2019-07-31T12:13:34Z",
               "commits": {
                 "edges": [
                   {
                     "node": {
                       "commit": {
-                        "additions": 167,
+                        "additions": 255,
                         "author": {
                           "date": "2019-07-30T08:20:03-04:00",
                           "user": {
                             "login": "justinlittman"
                           }
                         },
-                        "committedDate": "2019-07-30T12:55:52Z",
-                        "deletions": 99,
+                        "committedDate": "2019-07-31T11:18:37Z",
+                        "deletions": 97,
                         "messageHeadline": "Moves property info to icon. Bolds property labels.",
-                        "oid": "d1083c8a90d6d14eda762ebffd9026f677c33534"
+                        "oid": "be4999d88210a011c34b7298445012ebfd02b330"
                       }
                     }
                   },
                   {
                     "node": {
                       "commit": {
-                        "additions": 8,
+                        "additions": 12,
                         "author": {
                           "date": "2019-07-30T09:49:54-04:00",
                           "user": {
                             "login": "justinlittman"
                           }
                         },
-                        "committedDate": "2019-07-30T13:49:54Z",
+                        "committedDate": "2019-07-31T12:07:14Z",
                         "deletions": 5,
                         "messageHeadline": "Tweak to integration test.",
-                        "oid": "b11b6b9730e0eee92566e2cd42f9c7915cb17635"
+                        "oid": "fe2703c14e5d8474f77c10ffb29c09713059c9bd"
                       }
                     }
                   }
                 ]
               },
               "createdAt": "2019-07-30T12:20:36Z",
-              "mergedAt": null,
-              "mergedBy": null,
+              "mergedAt": "2019-07-31T12:13:34Z",
+              "mergedBy": {
+                "login": "jcoyne"
+              },
               "number": 1091,
-              "state": "OPEN",
+              "state": "MERGED",
               "title": "Moves property info to icon. Bolds property labels."
             }
           },
@@ -3969,7 +3988,7 @@
           },
           {
             "node": {
-              "closedAt": null,
+              "closedAt": "2019-07-30T20:12:40Z",
               "commits": {
                 "edges": [
                   {
@@ -3992,16 +4011,450 @@
                 ]
               },
               "createdAt": "2019-07-30T18:11:08Z",
+              "mergedAt": "2019-07-30T20:12:40Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 1102,
+              "state": "MERGED",
+              "title": "Right align the add/remove panel header buttons"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-30T20:13:54Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 6,
+                        "author": {
+                          "date": "2019-07-30T14:17:33-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-30T19:17:33Z",
+                        "deletions": 16,
+                        "messageHeadline": "Resource builder should set the language correctly",
+                        "oid": "18f6d8ae390d05f31134a3b9bddeffce2f58ed48"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-30T19:17:58Z",
+              "mergedAt": "2019-07-30T20:13:53Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 1103,
+              "state": "MERGED",
+              "title": "Resource builder should set the language correctly"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-30T20:54:40Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 6,
+                        "author": {
+                          "date": "2019-07-30T15:43:00-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-30T20:43:00Z",
+                        "deletions": 1,
+                        "messageHeadline": "Don't break across a panel when there is only one",
+                        "oid": "8a18d3fb001cce0d268b9e253f3be09f6e8df2fc"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-30T20:44:50Z",
+              "mergedAt": "2019-07-30T20:54:39Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 1105,
+              "state": "MERGED",
+              "title": "Don't break across a panel when there is only one"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-30T20:58:04Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 3,
+                        "author": {
+                          "date": "2019-07-30T15:48:18-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-30T20:48:18Z",
+                        "deletions": 1,
+                        "messageHeadline": "Only the buttons in the header should align right",
+                        "oid": "8586d72706732d47bcf461c22c4c849165f07dfb"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-30T20:49:20Z",
+              "mergedAt": "2019-07-30T20:58:04Z",
+              "mergedBy": {
+                "login": "ndushay"
+              },
+              "number": 1106,
+              "state": "MERGED",
+              "title": "Only the buttons in the header should align right"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-31T11:27:17Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 30,
+                        "author": {
+                          "date": "2019-07-30T16:41:47-07:00",
+                          "user": {
+                            "login": "ndushay"
+                          }
+                        },
+                        "committedDate": "2019-07-30T23:41:47Z",
+                        "deletions": 51,
+                        "messageHeadline": "Add button for property hidden rather than disabled",
+                        "oid": "df24591717c38cc693e747557c619806b22371d1"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-30T23:53:20Z",
+              "mergedAt": "2019-07-31T11:27:17Z",
+              "mergedBy": {
+                "login": "justinlittman"
+              },
+              "number": 1107,
+              "state": "MERGED",
+              "title": "\"Add another\" button for property is hidden rather than disabled"
+            }
+          },
+          {
+            "node": {
+              "closedAt": null,
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 248,
+                        "author": {
+                          "date": "2019-07-30T10:38:54-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-31T12:42:00Z",
+                        "deletions": 215,
+                        "messageHeadline": "Convert items to a hash instead of an array",
+                        "oid": "1b90597685bc9af873d031efb390c933cadad978"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 14,
+                        "author": {
+                          "date": "2019-07-31T08:10:17-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-31T13:10:17Z",
+                        "deletions": 31,
+                        "messageHeadline": "Drive InputLang and LanguageButton using reduxPath",
+                        "oid": "27b0776b5bcfb6ad280651a300fcecafdde1e4d6"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 12,
+                        "author": {
+                          "date": "2019-07-31T08:46:24-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-31T13:46:24Z",
+                        "deletions": 28,
+                        "messageHeadline": "InputLang component uses Redux state",
+                        "oid": "45dede67fd49acc73f72fb29d9f63c1655a8cb47"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-31T12:38:27Z",
               "mergedAt": null,
               "mergedBy": null,
-              "number": 1102,
+              "number": 1108,
               "state": "OPEN",
-              "title": "Right align the add/remove panel header buttons"
+              "title": "Convert items to a hash instead of an array"
+            }
+          },
+          {
+            "node": {
+              "closedAt": "2019-07-31T15:37:23Z",
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 252,
+                        "author": {
+                          "date": "2019-07-30T13:23:38-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-31T15:25:30Z",
+                        "deletions": 82,
+                        "messageHeadline": "Adds loading by URI.",
+                        "oid": "70ddf12e985e51691ed6b8bed1d8ffb58e95b9e7"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-31T15:26:17Z",
+              "mergedAt": "2019-07-31T15:37:23Z",
+              "mergedBy": {
+                "login": "aaron-collier"
+              },
+              "number": 1109,
+              "state": "MERGED",
+              "title": "Adds loading by URI."
+            }
+          },
+          {
+            "node": {
+              "closedAt": null,
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 25,
+                        "author": {
+                          "date": "2019-07-31T11:07:00-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-31T16:08:46Z",
+                        "deletions": 51,
+                        "messageHeadline": "Make InputLang a functional component",
+                        "oid": "e89753278fda4915a51278a93c40893cb8a7e130"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-31T16:09:31Z",
+              "mergedAt": null,
+              "mergedBy": null,
+              "number": 1110,
+              "state": "OPEN",
+              "title": "Make InputLang a functional component"
+            }
+          },
+          {
+            "node": {
+              "closedAt": null,
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 159,
+                        "author": {
+                          "date": "2019-07-30T08:48:24-04:00",
+                          "user": {
+                            "login": "justinlittman"
+                          }
+                        },
+                        "committedDate": "2019-07-31T16:20:01Z",
+                        "deletions": 76,
+                        "messageHeadline": "Fixes setting last save checksum so that it is called sync rather tha\u2026",
+                        "oid": "fbde252a40b005b15cd5ce57dc1d930e07b8816b"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-31T16:21:20Z",
+              "mergedAt": null,
+              "mergedBy": null,
+              "number": 1111,
+              "state": "OPEN",
+              "title": "Fixes setting last save checksum so that it is called sync rather tha\u2026"
+            }
+          },
+          {
+            "node": {
+              "closedAt": null,
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 89,
+                        "author": {
+                          "date": "2019-07-30T15:06:28-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-30T22:06:28Z",
+                        "deletions": 10,
+                        "messageHeadline": "Initial steps towards adding pagination to the search results",
+                        "oid": "cfe5d5c53be5c15f2f1e8344a6ae52d9cb796f4e"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 12,
+                        "author": {
+                          "date": "2019-07-30T15:15:12-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-30T22:15:12Z",
+                        "deletions": 24,
+                        "messageHeadline": "Establish configuration parameter for search results per page",
+                        "oid": "8d1cec2e8f5a30de6e4a9775d2769ceaccf9da47"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 7,
+                        "author": {
+                          "date": "2019-07-31T09:09:20-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-31T16:09:20Z",
+                        "deletions": 6,
+                        "messageHeadline": "Put query string in state so its available to paging",
+                        "oid": "63d80419321a654651a7808fa7095c0571a2992d"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 73,
+                        "author": {
+                          "date": "2019-07-31T10:02:00-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-31T17:02:00Z",
+                        "deletions": 10,
+                        "messageHeadline": "Add paging functionality",
+                        "oid": "7b422e4be5bcd6ad8d789100e45e93505fda9455"
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 26,
+                        "author": {
+                          "date": "2019-07-31T11:58:26-07:00",
+                          "user": {
+                            "login": "aaron-collier"
+                          }
+                        },
+                        "committedDate": "2019-07-31T18:58:26Z",
+                        "deletions": 30,
+                        "messageHeadline": "Set page button active and disabled properly",
+                        "oid": "3cb6ab85fd399d38b672711cd9e9ec8589782e31"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-31T17:03:31Z",
+              "mergedAt": null,
+              "mergedBy": null,
+              "number": 1112,
+              "state": "OPEN",
+              "title": "Add search paging"
+            }
+          },
+          {
+            "node": {
+              "closedAt": null,
+              "commits": {
+                "edges": [
+                  {
+                    "node": {
+                      "commit": {
+                        "additions": 104,
+                        "author": {
+                          "date": "2019-07-31T13:20:05-05:00",
+                          "user": {
+                            "login": "jcoyne"
+                          }
+                        },
+                        "committedDate": "2019-07-31T18:20:05Z",
+                        "deletions": 98,
+                        "messageHeadline": "[Refactor] extract Literal from InputLiteral",
+                        "oid": "cbba16a07d4af84b633debf1dc49592f864d300b"
+                      }
+                    }
+                  }
+                ]
+              },
+              "createdAt": "2019-07-31T18:20:31Z",
+              "mergedAt": null,
+              "mergedBy": null,
+              "number": 1116,
+              "state": "OPEN",
+              "title": "[Refactor] extract Literal from InputLiteral"
             }
           }
         ],
         "pageInfo": {
-          "endCursor": "Y3Vyc29yOnYyOpHOEgmf1w==",
+          "endCursor": "Y3Vyc29yOnYyOpHOEhCC0A==",
           "hasNextPage": false,
           "startCursor": "Y3Vyc29yOnYyOpHOEcWbwg=="
         }

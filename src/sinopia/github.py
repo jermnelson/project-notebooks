@@ -63,17 +63,36 @@ def __get_after__(**kwargs):
         after = """, after: "{after}" """.format(after=after)
     return after
 
-def __pr_series__(pr_shard):
+def __pr_data_frame__(pr_shard):
+    output = {}
     commits_sha = []
+    pr_author = []
     pr_number = []
     pr_createdAt = []
     pr_mergedAt = []
+    pr_mergedBy = []
     pr_title = []
     for row in pr_shard['data']['repository']['pullRequests']['edges']:
-        pr_number.append(row['number'])
-        pr_createdAt.append(row['createdAt'])
-        pr_mergedAt.append(row['mergedAt'])
-        pr_
+        node = row['node']
+        pr_number.append(node['number'])
+        pr_author.append(node['author']['login'])
+        pr_createdAt.append(pd.Timestamp(node['createdAt']))
+        pr_mergedAt.append(pd.Timestamp(node['mergedAt']))
+        pr_mergedBy.append(node['mergedBy']['login'])
+        pr_title.append(node['title'])
+        # Needs commits __pr_series__
+    ds_author = pd.Series(pr_author, index=pr_number)
+    ds_createdAt = pd.Series(pr_createdAt, index=pr_number)
+    ds_mergedAt = pd.Series(pr_mergedAt, index=pr_number)
+    ds_title = pd.Series(pr_title, index=pr_number)
+    pr_df = pd.DataFrame({
+        "author": ds_author,
+        "createdAt": ds_createdAt,
+        "mergedAt": ds_mergedAt,
+        "title": ds_title},
+        index=pr_number)
+    pr_df['elapsed'] = pr_df['mergedAt'] - pr_df['createdAt']
+    return pr_df
 
 def commits_query(**kwargs):
     """Queries repository for commits and returns JSON

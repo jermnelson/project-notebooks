@@ -2,3 +2,4 @@
 *ipynb_checkpoints*
 *.env*
 **pycache__*
+bibframe2marc.xsl

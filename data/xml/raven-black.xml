@@ -1,0 +1,163 @@
+<rdf:RDF xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lclocal="http://id.loc.gov/ontologies/lclocal/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:pmo="http://performedmusicontology.org/ontology/" xmlns:datatypes="http://id.loc.gov/datatypes/" xmlns:bflc="http://id.loc.gov/ontologies/bflc/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <bf:Work rdf:about="http://id.loc.gov/resources/works/e257105180164916639270642830301101060152">
+    <bf:title>
+      <bf:Title>
+        <bf:mainTitle>Raven black</bf:mainTitle>
+        <rdfs:label>Raven black</rdfs:label>
+      </bf:Title>
+    </bf:title>
+    <bf:genreForm>
+      <bf:GenreForm rdf:about="http://id.loc.gov/authorities/genreForms/gf2014026280">
+        <rdfs:label xml:lang="en">Detective and mystery fiction</rdfs:label>
+      </bf:GenreForm>
+    </bf:genreForm>
+    <bf:hasInstance>
+      <bf:Instance>
+        <bf:media>
+          <bf:Media rdf:about="http://id.loc.gov/vocabulary/mediaTypes/n">
+            <rdfs:label>unmediated</rdfs:label>
+          </bf:Media>
+        </bf:media>
+        <bf:provisionActivityStatement>London : Macmillan</bf:provisionActivityStatement>
+        <bf:title>
+          <bf:Title>
+            <bf:mainTitle>Raven black</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+        <bf:responsibilityStatement>Ann Cleeves</bf:responsibilityStatement>
+        <bf:extent>
+          <bf:Extent>
+            <rdfs:label>375 pages</rdfs:label>
+          </bf:Extent>
+        </bf:extent>
+        <bf:carrier>
+          <bf:Carrier rdf:about="http://id.loc.gov/vocabulary/carriers/nc">
+            <rdfs:label>volume</rdfs:label>
+          </bf:Carrier>
+        </bf:carrier>
+        <bf:dimensions>22 cm</bf:dimensions>
+        <bf:adminMetadata>
+          <bf:AdminMetadata>
+            <bflc:catalogerId>NancyL</bflc:catalogerId>
+            <bf:descriptionModifier>
+              <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/dlc">
+                <rdfs:label>DLC</rdfs:label>
+                <rdfs:label>dlc</rdfs:label>
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/DescriptionModifier"/>
+              </bf:Agent>
+            </bf:descriptionModifier>
+            <bf:descriptionLanguage>
+              <bf:Language rdf:about="http://id.loc.gov/vocabulary/languages/eng">
+                <rdfs:label>English</rdfs:label>
+                <rdfs:label xml:lang="en">eng</rdfs:label>
+              </bf:Language>
+            </bf:descriptionLanguage>
+            <bf:descriptionConventions>
+              <bf:DescriptionConventions rdf:about="http://id.loc.gov/vocabulary/descriptionConventions/rda">
+                <rdfs:label>RDA</rdfs:label>
+                <rdfs:label>rda</rdfs:label>
+              </bf:DescriptionConventions>
+            </bf:descriptionConventions>
+            <bf:descriptionAuthentication>
+              <bf:DescriptionAuthentication rdf:about="http://id.loc.gov/vocabulary/marcauthen/pcc">
+                <rdfs:label>pcc</rdfs:label>
+              </bf:DescriptionAuthentication>
+            </bf:descriptionAuthentication>
+            <bf:creationDate>01-06-2020</bf:creationDate>
+          </bf:AdminMetadata>
+        </bf:adminMetadata>
+        <bf:issuance>
+          <bf:Issuance rdf:about="http://id.loc.gov/vocabulary/issuance/mono">
+            <rdfs:label>single unit</rdfs:label>
+          </bf:Issuance>
+        </bf:issuance>
+        <bf:provisionActivity>
+          <bf:Publication>
+            <bf:place>
+              <bf:Place rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+                <rdfs:label xml:lang="en">England</rdfs:label>
+              </bf:Place>
+            </bf:place>
+            <bf:date>2006</bf:date>
+            <bf:agent>
+              <bf:Agent rdf:about="http://id.loc.gov/entities/providers/74e655581a038ce4b7b8a939b17f7cce">
+                <rdfs:label xml:lang="en">Macmillan</rdfs:label>
+              </bf:Agent>
+            </bf:agent>
+          </bf:Publication>
+        </bf:provisionActivity>
+      </bf:Instance>
+    </bf:hasInstance>
+    <bf:content>
+      <bf:Content rdf:about="http://id.loc.gov/vocabulary/contentTypes/txt">
+        <rdfs:label>text</rdfs:label>
+      </bf:Content>
+    </bf:content>
+    <bf:classification>
+      <bf:ClassificationLcc>
+        <bf:itemPortion>R38 2006</bf:itemPortion>
+        <bf:classificationPortion>PR6053.L45</bf:classificationPortion>
+      </bf:ClassificationLcc>
+    </bf:classification>
+    <bf:subject>
+      <bf:Topic rdf:about="http://id.loc.gov/authorities/names/n81097141">
+        <rdfs:label xml:lang="en">Shetland (Scotland)</rdfs:label>
+      </bf:Topic>
+    </bf:subject>
+    <bf:contribution>
+      <bf:Contribution>
+        <bf:agent>
+          <bf:Person rdf:about="http://id.loc.gov/authorities/names/nb2016001094">
+            <rdfs:label xml:lang="en">Poirot, Hercule (Fictitious character)</rdfs:label>
+          </bf:Person>
+        </bf:agent>
+      </bf:Contribution>
+    </bf:contribution>
+    <bf:contribution>
+      <bflc:PrimaryContribution>
+        <bf:role>
+          <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/aut">
+            <rdfs:label xml:lang="en">Author</rdfs:label>
+          </bf:Role>
+        </bf:role>
+        <bf:agent>
+          <bf:Person rdf:about="http://id.loc.gov/authorities/names/n85039474">
+            <rdfs:label xml:lang="en">Cleeves, Ann</rdfs:label>
+          </bf:Person>
+        </bf:agent>
+      </bflc:PrimaryContribution>
+    </bf:contribution>
+    <bf:adminMetadata>
+      <bf:AdminMetadata>
+        <bflc:profile>lc:RT:bf2:Monograph:Work</bflc:profile>
+        <bf:descriptionAuthentication rdf:resource="http://id.loc.gov/vocabulary/marcauthen/pcc"/>
+        <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/rda"/>
+        <bflc:procInfo>create work</bflc:procInfo>
+        <bf:descriptionLanguage rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+        <bf:creationDate>2020-01-06</bf:creationDate>
+        <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+        <bf:changeDate>2020-01-08T19:31:37</bf:changeDate>
+        <bf:identifiedBy>
+          <bf:Local rdf:about="http://bibframe.org/resources/e154856253071356393291392998559023961500">
+            <rdf:value>e154856253071356393291392998559023961500</rdf:value>
+          </bf:Local>
+        </bf:identifiedBy>
+      </bf:AdminMetadata>
+    </bf:adminMetadata>
+    <bf:language>
+      <bf:Language>
+        <bf:Language rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      </bf:Language>
+    </bf:language>
+    <bf:summary>
+      <bf:Summary>
+        <rdfs:label>It is a cold January morning and Shetland lies beneath a deep layer of snow. Trudging home, Fran Hunter's eye is drawn to a splash of colour on the frozen gorund, ravens circling above. It is the strangled body of her teenage neighbour, Catherine Ross. While Catherine lies in the snow, Shetland police patiently await the arrival of the murder squad from the Scottish mainland. Meanwhile news of her death filters quickly through the quiet islands. It seems that the locals are stubbornly focusing their gaze on one man - loner and simpleton, Magnus Tait. However, Catherine's startling and vicious demise has thrown a veil of suspicion over everyone who knew her; and detective Jimmy Perez is detemined to keep the investigation open and the rumours at bay. Soon the Inverness and Shetland police are infiltrating the peaceful community and residents are looking at each other with unnatural suspicion and fear, nervously locking their doors for the first time in years. Meanhile Catherine's killer lives on in their midst ...</rdfs:label>
+      </bf:Summary>
+    </bf:summary>
+    <bf:originPlace>
+      <bf:Place rdf:about="http://id.loc.gov/authorities/names/n82068148">
+        <rdfs:label xml:lang="en">England</rdfs:label>
+      </bf:Place>
+    </bf:originPlace>
+  </bf:Work>
+</rdf:RDF>

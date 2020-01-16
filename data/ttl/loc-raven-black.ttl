@@ -1,0 +1,120 @@
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix datatypes: <http://id.loc.gov/datatypes/> .
+@prefix lclocal: <http://id.loc.gov/ontologies/lclocal/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix pmo: <http://performedmusicontology.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sinopia: <http://sinopia.io/vocabulary/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://id.loc.gov/resources/works/e257105180164916639270642830301101060152> a bf:Work ;
+    bf:adminMetadata [ a bf:AdminMetadata ;
+            bflc:procInfo "create work" ;
+            bflc:profile "lc:RT:bf2:Monograph:Work" ;
+            bf:changeDate "2020-01-06T23:49:35" ;
+            bf:creationDate "2020-01-06" ;
+            bf:descriptionAuthentication <http://id.loc.gov/vocabulary/marcauthen/pcc> ;
+            bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/rda> ;
+            bf:descriptionLanguage <http://id.loc.gov/vocabulary/languages/eng> ;
+            bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/dlc> ;
+            bf:identifiedBy <http://bibframe.org/resources/e154856253071356393291392998559023961500> ] ;
+    bf:classification [ a bf:ClassificationLcc ;
+            bf:classificationPortion "PR6053.L45" ;
+            bf:itemPortion "R38 2006" ] ;
+    bf:content <http://id.loc.gov/vocabulary/contentTypes/txt> ;
+    bf:contribution [ a bf:Contribution ;
+            bf:agent <http://id.loc.gov/authorities/names/nb2016001094> ],
+        [ a bflc:PrimaryContribution ;
+            bf:agent <http://id.loc.gov/authorities/names/n85039474> ;
+            bf:role <http://id.loc.gov/vocabulary/relators/aut> ] ;
+    bf:genreForm <http://id.loc.gov/authorities/genreForms/gf2014026280> ;
+    bf:hasInstance [ a bf:Instance ;
+            bf:adminMetadata [ a bf:AdminMetadata ;
+                    bflc:catalogerId "NancyL" ;
+                    bf:creationDate "01-06-2020" ;
+                    bf:descriptionAuthentication <http://id.loc.gov/vocabulary/marcauthen/pcc> ;
+                    bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/rda> ;
+                    bf:descriptionLanguage <http://id.loc.gov/vocabulary/languages/eng> ;
+                    bf:descriptionModifier <http://id.loc.gov/vocabulary/organizations/dlc> ] ;
+            bf:carrier <http://id.loc.gov/vocabulary/carriers/nc> ;
+            bf:dimensions "22 cm" ;
+            bf:extent [ a bf:Extent ;
+                    rdfs:label "375 pages" ] ;
+            bf:issuance <http://id.loc.gov/vocabulary/issuance/mono> ;
+            bf:media <http://id.loc.gov/vocabulary/mediaTypes/n> ;
+            bf:provisionActivity [ a bf:Publication ;
+                    bf:agent <http://id.loc.gov/entities/providers/74e655581a038ce4b7b8a939b17f7cce> ;
+                    bf:date "2006" ;
+                    bf:place <http://id.loc.gov/vocabulary/countries/enk> ] ;
+            bf:provisionActivityStatement "London : Macmillan" ;
+            bf:responsibilityStatement "Ann Cleeves" ;
+            bf:title [ a bf:Title ;
+                    bf:mainTitle "Raven black" ] ] ;
+    bf:language [ a bf:Language ;
+            bf:Language <http://id.loc.gov/vocabulary/languages/eng> ] ;
+    bf:originPlace <http://id.loc.gov/authorities/names/n82068148> ;
+    bf:subject <http://id.loc.gov/authorities/names/n81097141> ;
+    bf:summary [ a bf:Summary ;
+            rdfs:label "It is a cold January morning and Shetland lies beneath a deep layer of snow. Trudging home, Fran Hunter's eye is drawn to a splash of colour on the frozen gorund, ravens circling above. It is the strangled body of her teenage neighbour, Catherine Ross. While Catherine lies in the snow, Shetland police patiently await the arrival of the murder squad from the Scottish mainland. Meanwhile news of her death filters quickly through the quiet islands. It seems that the locals are stubbornly focusing their gaze on one man - loner and simpleton, Magnus Tait. However, Catherine's startling and vicious demise has thrown a veil of suspicion over everyone who knew her; and detective Jimmy Perez is detemined to keep the investigation open and the rumours at bay. Soon the Inverness and Shetland police are infiltrating the peaceful community and residents are looking at each other with unnatural suspicion and fear, nervously locking their doors for the first time in years. Meanhile Catherine's killer lives on in their midst ..." ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Raven black" ;
+            bf:mainTitle "Raven black" ] .
+
+<http://bibframe.org/resources/e154856253071356393291392998559023961500> a bf:Local ;
+    rdf:value "e154856253071356393291392998559023961500" .
+
+<http://id.loc.gov/authorities/genreForms/gf2014026280> a bf:GenreForm ;
+    rdfs:label "Detective and mystery fiction"@en .
+
+<http://id.loc.gov/authorities/names/n81097141> a bf:Topic ;
+    rdfs:label "Shetland (Scotland)"@en .
+
+<http://id.loc.gov/authorities/names/n82068148> a bf:Place ;
+    rdfs:label "England"@en .
+
+<http://id.loc.gov/authorities/names/n85039474> a bf:Person ;
+    rdfs:label "Cleeves, Ann"@en .
+
+<http://id.loc.gov/authorities/names/nb2016001094> a bf:Person ;
+    rdfs:label "Poirot, Hercule (Fictitious character)"@en .
+
+<http://id.loc.gov/entities/providers/74e655581a038ce4b7b8a939b17f7cce> a bf:Agent ;
+    rdfs:label "Macmillan"@en .
+
+<http://id.loc.gov/vocabulary/carriers/nc> a bf:Carrier ;
+    rdfs:label "volume" .
+
+<http://id.loc.gov/vocabulary/contentTypes/txt> a bf:Content ;
+    rdfs:label "text" .
+
+<http://id.loc.gov/vocabulary/countries/enk> a bf:Place ;
+    rdfs:label "England"@en .
+
+<http://id.loc.gov/vocabulary/issuance/mono> a bf:Issuance ;
+    rdfs:label "single unit" .
+
+<http://id.loc.gov/vocabulary/mediaTypes/n> a bf:Media ;
+    rdfs:label "unmediated" .
+
+<http://id.loc.gov/vocabulary/relators/aut> a bf:Role ;
+    rdfs:label "Author"@en .
+
+<http://id.loc.gov/vocabulary/descriptionConventions/rda> a bf:DescriptionConventions ;
+    rdfs:label "RDA",
+        "rda" .
+
+<http://id.loc.gov/vocabulary/marcauthen/pcc> a bf:DescriptionAuthentication ;
+    rdfs:label "pcc" .
+
+<http://id.loc.gov/vocabulary/organizations/dlc> a bf:Agent,
+        bf:DescriptionModifier ;
+    rdfs:label "DLC",
+        "dlc" .
+
+<http://id.loc.gov/vocabulary/languages/eng> a bf:Language ;
+    rdfs:label "English",
+        "eng"@en .
+

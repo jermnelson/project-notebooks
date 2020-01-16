@@ -5,13 +5,15 @@ import io
 import rdflib
 import requests
 import pymarc
+import uuid
 import sys
 from lxml import etree
 
 BF = rdflib.Namespace("http://id.loc.gov/ontologies/bibframe/")
 BFLC = rdflib.Namespace("http://id.loc.gov/ontologies/bflc/")
 SINOPIA = rdflib.Namespace("http://sinopia.io/vocabulary/")
-XML_NS = {"bf": "http://id.loc.gov/ontologies/bibframe/"}
+XML_NS = {"bf": "http://id.loc.gov/ontologies/bibframe/", 
+          "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"}
 
 # Function Opens the XSLT filepath as a file and returns an lxml XSLT object
 def get_xslt(filepath):
@@ -85,20 +87,27 @@ def unnestedXML(instance_uri, work_uri):
 
 # Function takes a graph with a URI bf:Work with a nested bf:Instance serializes the output to XML and then modifies 
 # XML with the expected structure for the bibframe2marc transformation
-def nestedInstance(graph):
-
-    rdf_xml = etree.XML(graph.serialize(format='pretty-xml'))
+def nestedInstance(incoming_rdf):
+    if isinstance(incoming_rdf, rdflib.Graph) or isinstance(incoming_rdf, rdflib.ConjunctiveGraph):
+    	rdf_xml = etree.XML(incoming_rdf.serialize(format='pretty-xml'))
+    else:
+        rdf_xml = incoming_rdf
     hasInstance = rdf_xml.find("bf:Work/bf:hasInstance", XML_NS)
     bfInstance = hasInstance.find("bf:Instance", XML_NS)
     # Delete the instance from the hasInstance element
     hasInstance.remove(bfInstance)
     # Creates relationship betweemn bf:hasInstance and the instance
+    if len(hasInstance.attrib) < 1:
+        bfInstance.attrib["{http://www.w3.org/1999/02/22-rdf-syntax-ns#}nodeID"] = str(uuid.uuid1())
     node_id = bfInstance.attrib["{http://www.w3.org/1999/02/22-rdf-syntax-ns#}nodeID"]
     hasInstance.attrib["{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource"] = node_id
     # Adds rdf:about to bfInstance
     bfInstance.attrib["{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about"] = node_id
     # Adds the instance back as a top-level element
-    rdf_xml.append(bfInstance)
+    if hasattr(rdf_xml, 'getroot'):
+        rdf_xml.getroot().append(bfInstance)
+    else:
+        rdf_xml.append(bfInstance)
     return rdf_xml
 
 # Function takea a graph with an bf:Instance with one or more nested bf:Works, serializes to XML and then modifies

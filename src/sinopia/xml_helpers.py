@@ -29,7 +29,7 @@ def init_ns(graph):
     
 # Function takes a graph, serializes to XML, and the returns the transformed MARC XML
 def graph2marcXML(graph):
-    rdf_xml = etree.XML(graph.serialize(format='pretty-xml'))
+    rdf_xml = etree.XML(graph.serialize(format='pretty-xml', max_depth=10))
     try:
         return bf2marc_transform(rdf_xml)
     except:
@@ -40,7 +40,7 @@ def graph2marcXML(graph):
 def graph2RDFXML(uris):
     for uri in uris:
         graph = triples2record(uri)
-        rdf_xml = etree.XML(graph.serialize(format='pretty-xml'))
+        rdf_xml = etree.XML(graph.serialize(format='pretty-xml', max_depth=10))
         yield rdf_xml
 
 # Function takes a MARC XML document and returns the MARC 21 equalivant
@@ -79,19 +79,25 @@ def unnestedXML(instance_uri, work_uri):
   work = triples2record([work_uri])
   # Use the instance XML as the record xml base
   record_xml = etree.XML(instance.serialize(format='pretty-xml'))
-  work_xml = etree.XML(work.serialize(format='pretty-xml'))
+  work_xml = etree.XML(work.serialize(format='pretty-xml', max_depth=10))
   work_element = work_xml.find("bf:Work", XML_NS)
   for child in work_xml.iterchildren():
     record_xml.append(child)
   return record_xml
 
+
+def __return_xml__(incoming_rdf):
+    if isinstance(incoming_rdf, rdflib.Graph) or isinstance(incoming_rdf, rdflib.ConjunctiveGraph):
+    	rdf_xml = etree.XML(incoming_rdf.serialize(format='pretty-xml', max_depth=10))
+    else:
+        rdf_xml = incoming_rdf
+    return rdf_xml
+
+
 # Function takes a graph with a URI bf:Work with a nested bf:Instance serializes the output to XML and then modifies 
 # XML with the expected structure for the bibframe2marc transformation
 def nestedInstance(incoming_rdf):
-    if isinstance(incoming_rdf, rdflib.Graph) or isinstance(incoming_rdf, rdflib.ConjunctiveGraph):
-    	rdf_xml = etree.XML(incoming_rdf.serialize(format='pretty-xml'))
-    else:
-        rdf_xml = incoming_rdf
+    rdf_xml = __return_xml__(incoming_rdf)
     hasInstance = rdf_xml.find("bf:Work/bf:hasInstance", XML_NS)
     bfInstance = hasInstance.find("bf:Instance", XML_NS)
     # Delete the instance from the hasInstance element
@@ -112,15 +118,22 @@ def nestedInstance(incoming_rdf):
 
 # Function takea a graph with an bf:Instance with one or more nested bf:Works, serializes to XML and then modifies
 # the XML to the expected structure for the bibframe2marc xslt
-def nestedWork(graph):
-    rdf_xml = etree.XML(graph.serialize(format='pretty-xml'))
+def nestedWork(incoming_rdf):
+    rdf_xml = __return_xml__(incoming_rdf)
     instanceOfs = rdf_xml.findall("bf:instanceOf", XML_NS)
     for elem in instanceOfs:
         bfWork = elem.find("bf:Work", XML_NS)
-        work_node_id = bfWork.attrib["{http://www.w3.org/1999/02/22-rdf-syntax-ns#}nodeID"]
+        if len(bfWork.attrib) < 1:
+            work_node_id = str(uuid.uuid1())
+            bfWork.attrib["{http://www.w3.org/1999/02/22-rdf-syntax-ns#}nodeID"] = work_node_id
+        else:
+            work_node_id = bfWork.attrib["{http://www.w3.org/1999/02/22-rdf-syntax-ns#}nodeID"]
         elem.attrib["{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource"] = work_node_id
         elem.remove(bfWork)
-        rdf_xml.append(bfWOrk)
+        if hasattr(rdf_xml, "getroot"):
+            rdf_xml.getroot().append(bfWork)
+        else:
+            rdf_xml.append(bfWork)
     return rdf_xml
 
 

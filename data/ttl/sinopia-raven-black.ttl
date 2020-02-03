@@ -1,0 +1,105 @@
+@prefix acl: <http://www.w3.org/ns/auth/acl#> .
+@prefix as: <https://www.w3.org/ns/activitystreams#> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix memento: <http://mementoweb.org/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sinopia: <http://sinopia.io/vocabulary/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://id.loc.gov/authorities/genreForms/gf2014026280> rdfs:label "Detective and mystery fiction" .
+
+<http://id.loc.gov/authorities/names/n79005665> rdfs:label "London (England)" .
+
+<http://id.loc.gov/authorities/names/n80079863> rdfs:label "Macmillan, Inc." .
+
+<http://id.loc.gov/authorities/names/n82068148> rdfs:label "England" .
+
+<http://id.loc.gov/authorities/names/n85039474> rdfs:label "Cleeves, Ann" .
+
+<http://id.loc.gov/authorities/names/n86717637> rdfs:label "Fiction" .
+
+<http://id.loc.gov/vocabulary/carriers/nc> rdfs:label "volume" .
+
+<http://id.loc.gov/vocabulary/contentTypes/txt> rdfs:label "text" .
+
+<http://id.loc.gov/vocabulary/descriptionConventions/rda> rdfs:label "Resource Description and Access" .
+
+<http://id.loc.gov/vocabulary/issuance/mono> rdfs:label "single unit" .
+
+<http://id.loc.gov/vocabulary/marcauthen/lccopycat> rdfs:label "LC Copy Cataloging" .
+
+<http://id.loc.gov/vocabulary/mediaTypes/n> rdfs:label "unmediated" .
+
+<http://id.loc.gov/vocabulary/relators/aut> rdfs:label "Author" .
+
+<https://trellis.stage.sinopia.io/repository/stanford/2f5ec44d-2eab-4f56-b9f0-35569b26484f> a bf:Instance ;
+    bf:adminMetadata [ a bf:AdminMetadata ;
+            bflc:catalogerId "NancyL"@eng ;
+            bf:creationDate "2020-01-13"@eng ;
+            bf:descriptionAuthentication <http://id.loc.gov/vocabulary/marcauthen/lccopycat>,
+                "pcc" ;
+            bf:descriptionConventions <http://id.loc.gov/vocabulary/descriptionConventions/rda> ;
+            bf:descriptionLanguage <http://id.loc.gov/vocabulary/languages/eng> ] ;
+    bf:carrier <http://id.loc.gov/vocabulary/carriers/nc> ;
+    bf:date "2006"@eng ;
+    bf:dimensions "22 cm"@eng ;
+    bf:extent [ a bf:Extent ;
+            rdfs:label "375 pages"@eng ] ;
+    bf:identifiedBy [ a bf:Lccn ;
+            rdf:value "2006386003"@eng ],
+        [ a bf:Isbn ;
+            bf:qualifier "9781405054720"@eng,
+                "hbk."@eng ;
+            rdf:value "1405054727"@eng ] ;
+    bf:instanceOf <https://trellis.stage.sinopia.io/repository/stanford/c415fd11-b17f-47fb-8a70-f717eee9e09e> ;
+    bf:issuance <http://id.loc.gov/vocabulary/issuance/mono> ;
+    bf:media <http://id.loc.gov/vocabulary/mediaTypes/n> ;
+    bf:provisionActivity [ a bf:Publication ;
+            bf:agent [ a bf:Agent ;
+                    bf:Agent <http://id.loc.gov/authorities/names/n80079863> ] ;
+            bf:date "2006"@eng ;
+            bf:place <http://id.loc.gov/authorities/names/n79005665> ] ;
+    bf:provisionActivityStatement "London : Macmillan"@eng ;
+    bf:responsibilityStatement "Ann Cleeves"@eng ;
+    bf:title [ a bf:Title ;
+            bf:mainTitle "Raven black"@eng ] ;
+    sinopia:hasResourceTemplate "ld4p:RT:bf2:Monograph:Instance:Un-nested" .
+
+<https://trellis.stage.sinopia.io/repository/stanford/c415fd11-b17f-47fb-8a70-f717eee9e09e> a bf:Work ;
+    rdfs:label "https://trellis.stage.sinopia.io/repository/stanford/c415fd11-b17f-47fb-8a70-f717eee9e09e" ;
+    bf:classification [ a bf:ClassificationLcc ;
+            bf:classificationPortion "PR6053.L45"@eng ;
+            bf:itemPortion "R38 2006"@eng ] ;
+    bf:content <http://id.loc.gov/vocabulary/contentTypes/txt> ;
+    bf:contribution [ a bflc:PrimaryContribution ;
+            bf:agent [ a bf:Person ;
+                    rdf:value <http://id.loc.gov/authorities/names/n85039474> ] ;
+            bf:role <http://id.loc.gov/vocabulary/relators/aut> ] ;
+    bf:genreForm <http://id.loc.gov/authorities/genreForms/gf2014026280> ;
+    bf:geographicCoverage <http://id.loc.gov/authorities/names/n81097141> ;
+    bf:hasInstance <https://trellis.stage.sinopia.io/repository/stanford/2f5ec44d-2eab-4f56-b9f0-35569b26484f> ;
+    bf:language <http://id.loc.gov/vocabulary/languages/eng> ;
+    bf:originDate "2006"@eng ;
+    bf:originPlace <http://id.loc.gov/authorities/names/n82068148> ;
+    bf:subject <http://id.loc.gov/authorities/names/n81097141>,
+        <http://id.loc.gov/authorities/names/n86717637> ;
+    bf:title [ a bf:Title ;
+            bf:mainTitle "Raven black"@eng ] ;
+    sinopia:hasResourceTemplate "ld4p:RT:bf2:Monograph:Work:Un-nested" .
+
+<http://id.loc.gov/authorities/names/n81097141> rdfs:label "Shetland (Scotland)" .
+
+<http://id.loc.gov/vocabulary/languages/eng> rdfs:label "English" .
+
